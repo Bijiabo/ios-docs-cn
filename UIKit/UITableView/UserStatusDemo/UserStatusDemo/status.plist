@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>content</key>
+		<string>二仟万了，会有什么福利呢？让我好好想想！刚起床，脑子还懵呢？想好了告诉你们吧！</string>
+		<key>deviceName</key>
+		<string>iphone5s</string>
+		<key>publishTime</key>
+		<string>10分钟前</string>
+		<key>userIcon</key>
+		<string>userIcon1.png</string>
+		<key>userName</key>
+		<string>哈哈小老虎</string>
+		<key>avatar</key>
+		<string>avatar1.png</string>
+		<key>userId</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>content</key>
+		<string>用极简的唱法勾建着这首歌， 这是洁仪的特别之处，这首《心如刀割》唱的哀而不伤，悲而不溃，可她一开嗓，就像一下子把这座城市的所有灯都关上，只剩月光和自己。痛从模糊变得清晰，从麻木迟钝变得敏感尖锐，陈洁仪是唱故事的高手，不知觉间，每个人眼泪悄悄莹转</string>
+		<key>deviceName</key>
+		<string>iphone6 plus</string>
+		<key>publishTime</key>
+		<string>昨天 22:53</string>
+		<key>userIcon</key>
+		<string>userIcon2.png</string>
+		<key>userName</key>
+		<string>西单绝影</string>
+		<key>avatar</key>
+		<string>avatar2.png</string>
+		<key>userId</key>
+		<integer>2</integer>
+	</dict>
+</array>
+</plist>

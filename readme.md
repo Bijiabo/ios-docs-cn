@@ -16,6 +16,8 @@ ios-dev-resources
 
 * xcode
 	* [Instruments使用教程](http://blog.csdn.net/toss156/article/details/7579294)
+	* [Xcode and #pragma mark](http://www.360doc.com/content/13/1210/22/2036337_336192229.shtml)
+	* [xcode对比两个分支中同一个文件](http://blog.csdn.net/mmoaay/article/details/41115283)
 
 * [CocoaPods](http://cocoapods.org/)
 
@@ -147,6 +149,7 @@ ios-dev-resources
 * [SDWebImage](https://github.com/rs/SDWebImage) -- 支持缓存的图片延迟加载
 * [EGOTableViewPullRefresh](https://github.com/enormego/EGOTableViewPullRefresh) -- 上拉刷新
 * [JSONKit](https://github.com/johnezang/JSONKit) -- json处理
+* [ISHPermissionKit](https://github.com/iosphere/ISHPermissionKit) -- 以统一的方式请求用户授权
 
 <br>
 
@@ -182,3 +185,4 @@ ios-dev-resources
 ### 六. 需注意的知识点
 
 * [关于viewWithTag的一点说明](http://blog.csdn.net/smking/article/details/8590547)
+* [判断是否有权限访问相机、相册、定位](http://blog.csdn.net/cafei111/article/details/25793145)
