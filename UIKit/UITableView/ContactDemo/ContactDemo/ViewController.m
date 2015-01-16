@@ -18,9 +18,12 @@
 @interface ViewController ()
 
 @property UITableView *tableview;
-@property NSMutableArray *contacts;
+@property NSMutableArray *contactGroups;
+@property NSMutableArray *searchContacts;
 @property NSIndexPath *selectedIndexPath;
 @property BOOL isDeleteContact;
+@property BOOL isSearching;
+@property UISearchBar *searchbar;
 
 @end
 
@@ -32,6 +35,7 @@
     [self initContactData];
     [self initToolbar];
     [self initTableView];
+    [self initSearchbar];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -42,18 +46,18 @@
 #pragma mark - 私有方法
 // 初始化联系人数据
 - (void)initContactData {
-    self.contacts = [[NSMutableArray alloc] init];
+    self.contactGroups = [NSMutableArray array];
     
     Contact *contact1 = [[Contact alloc] initWithFirstName:@"张" andLastName:@"三" andPhoneNumber:@"123"];
     Contact *contact2 = [[Contact alloc] initWithFirstName:@"李" andLastName:@"四" andPhoneNumber:@"456"];
     ContactGroup *group1 = [[ContactGroup alloc] initWithName:@"亲戚" andDetail:@"这里放亲戚的联系信息" andContacts:[NSMutableArray arrayWithObjects:contact1, contact2, nil]];
-    [self.contacts addObject:group1];
+    [self.contactGroups addObject:group1];
     
     Contact *contact3 = [[Contact alloc] initWithFirstName:@"王" andLastName:@"五" andPhoneNumber:@"678"];
     Contact *contact4 = [[Contact alloc] initWithFirstName:@"赵" andLastName:@"六" andPhoneNumber:@"901"];
     Contact *contact5 = [[Contact alloc] initWithFirstName:@"钱" andLastName:@"七" andPhoneNumber:@"923"];
     ContactGroup *group2 = [[ContactGroup alloc] initWithName:@"朋友" andDetail:@"这里是朋友的联系信息" andContacts:[NSMutableArray arrayWithObjects:contact3, contact4, contact5, nil]];
-    [self.contacts addObject:group2];
+    [self.contactGroups addObject:group2];
 }
 
 // 初始化表格
@@ -76,6 +80,16 @@
     [self.view addSubview:toolbar];
 }
 
+- (void)initSearchbar {
+    self.searchContacts = [NSMutableArray array];
+    self.searchbar = [[UISearchBar alloc] init];
+    self.searchbar.delegate = self;
+    self.searchbar.placeholder = @"请输入关键字搜索";
+    self.searchbar.showsCancelButton = YES;
+    [self.searchbar sizeToFit];
+    self.tableview.tableHeaderView = self.searchbar;
+}
+
 // 删除联系人
 - (void)removeContact {
     self.isDeleteContact = YES;
@@ -88,67 +102,100 @@
     [self.tableview setEditing:!self.tableview.editing animated:YES];
 }
 
+// 根据搜索关键字生成搜索结果数据
+- (void)generateSearchDataByKeyword:(NSString *)keyword {
+    self.isSearching = YES;
+    
+    for (ContactGroup *group in self.contactGroups) {
+        for (Contact *contact in group.contacts) {
+            if (![self.searchContacts containsObject:contact] && [self isContactMatchingKeyword:contact keyword:keyword]) {
+                [self.searchContacts addObject:contact];
+            }
+        }
+    }
+    
+    [self.tableview reloadData];
+}
+
+// 判断当前contact是否包含目标关键字
+- (BOOL)isContactMatchingKeyword:(Contact *)contact keyword:(NSString *)keyword {
+    NSString *kw = keyword.uppercaseString;
+    return [contact.firstName.uppercaseString containsString:kw] || [contact.lastName.uppercaseString containsString:kw] || [contact.phoneNumber.uppercaseString containsString:kw];
+}
+
 #pragma mark - table view 数据源方法
 // 分组数量
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    return self.contacts.count;
+    if (self.isSearching) {
+        return 1;
+    } else {
+        return self.contactGroups.count;
+    }
 }
 
 // 每组行数
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    ContactGroup *group = self.contacts[section];
-    return group.contacts.count;
+    if (self.isSearching) {
+        return self.searchContacts.count;
+    } else {
+        ContactGroup *group = self.contactGroups[section];
+        return group.contacts.count;
+    }
 }
 
 // 表格右侧的标题索引
-- (NSArray *)sectionIndexTitlesForTableView:(UITableView *)tableView {
-    NSMutableArray *indexs = [[NSMutableArray alloc] init];
-    
-    for (ContactGroup *group in self.contacts) {
-        [indexs addObject:group.name];
-    }
-    
-    return indexs;
-}
+//- (NSArray *)sectionIndexTitlesForTableView:(UITableView *)tableView {
+//    NSMutableArray *indexs = [[NSMutableArray alloc] init];
+//    
+//    for (ContactGroup *group in self.contacts) {
+//        [indexs addObject:group.name];
+//    }
+//    
+//    return indexs;
+//}
 
 // 每行的单元格
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    Contact *curContact;
     static NSString *reuseIndentifier = @"Cell";
-    static NSString *reuseSwitchIndentifier = @"SwitchCell";
-    BOOL isFirstSectionAndRow = indexPath.section == 0 && indexPath.row == 0;
-    NSString *curReuseIndentifier = isFirstSectionAndRow ? reuseSwitchIndentifier : reuseIndentifier;
-    
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:curReuseIndentifier];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:reuseIndentifier];
     
     if (cell == nil) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:curReuseIndentifier];
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:reuseIndentifier];
     }
     
-    ContactGroup *group = self.contacts[indexPath.section];
-    Contact *contact = group.contacts[indexPath.row];
-    
-    cell.textLabel.text = [contact getName];
-    cell.detailTextLabel.text = contact.phoneNumber;
-    
-    if (isFirstSectionAndRow) {
-        cell.accessoryView = [[UISwitch alloc] init];
+    if (self.isSearching) {
+        curContact = self.searchContacts[indexPath.row];
     } else {
-        cell.accessoryType = UITableViewCellAccessoryDetailButton;
+        ContactGroup *group = self.contactGroups[indexPath.section];
+        curContact = group.contacts[indexPath.row];
     }
+    
+    cell.textLabel.text = [curContact getName];
+    cell.detailTextLabel.text = curContact.phoneNumber;
+    cell.accessoryType = UITableViewCellAccessoryDetailButton;
     
     return cell;
 }
 
 // 分组标题
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
-    ContactGroup *group = self.contacts[section];
-    return group.name;
+    if (self.isSearching) {
+        return @"搜索结果";
+    } else {
+        ContactGroup *group = self.contactGroups[section];
+        return group.name;
+    }
 }
 
 // 分组脚注
 - (NSString *)tableView:(UITableView *)tableView titleForFooterInSection:(NSInteger)section {
-    ContactGroup *group = self.contacts[section];
-    return group.detail;
+    if (self.isSearching) {
+        return @"";
+    } else {
+        ContactGroup *group = self.contactGroups[section];
+        return group.detail;
+    }
 }
 
 #pragma mark - table view 代理方法
@@ -171,7 +218,7 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     self.selectedIndexPath = indexPath;
     
-    ContactGroup *group = self.contacts[indexPath.section];
+    ContactGroup *group = self.contactGroups[indexPath.section];
     __block __weak ViewController *weakSelf = self;
     __block __weak Contact *contact = group.contacts[indexPath.row];
     __block __weak UIAlertController *alert = [UIAlertController alertControllerWithTitle:nil message:[contact getName] preferredStyle:UIAlertControllerStyleAlert];
@@ -202,7 +249,7 @@
 
 // 实现了此方法，向左滑时就会显示删除或添加图标
 - (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
-    ContactGroup *group = self.contacts[indexPath.section];
+    ContactGroup *group = self.contactGroups[indexPath.section];
     Contact *contact = group.contacts[indexPath.row];
     
     if (editingStyle == UITableViewCellEditingStyleDelete) {
@@ -210,7 +257,7 @@
         [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationBottom];
         
         if (group.contacts.count == 0) {
-            [self.contacts removeObject:group];
+            [self.contactGroups removeObject:group];
             [tableView reloadData];
         }
     } else {
@@ -225,18 +272,43 @@
 
 // 只要实现了该方法，当tableview处于编辑状态时，就可以进行排序
 - (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)sourceIndexPath toIndexPath:(NSIndexPath *)destinationIndexPath {
-    ContactGroup *sourceGroup = self.contacts[sourceIndexPath.section];
+    ContactGroup *sourceGroup = self.contactGroups[sourceIndexPath.section];
     Contact *sourceContact = sourceGroup.contacts[sourceIndexPath.row];
     
-    ContactGroup *destGroup = self.contacts[destinationIndexPath.section];
+    ContactGroup *destGroup = self.contactGroups[destinationIndexPath.section];
     
     [sourceGroup.contacts removeObject:sourceContact];
     if (sourceGroup.contacts.count == 0) {
-        [self.contacts removeObject:sourceGroup];
+        [self.contactGroups removeObject:sourceGroup];
         [tableView reloadData];
     }
     
     [destGroup.contacts insertObject:sourceContact atIndex:destinationIndexPath.row];
+}
+
+#pragma mark - searchbar代理方法
+// 取消搜索
+- (void)searchBarCancelButtonClicked:(UISearchBar *)searchBar {
+    self.isSearching = NO;
+    self.searchbar.text = @"";
+    [self.searchContacts removeAllObjects];
+    [self.tableview reloadData];
+    [searchBar resignFirstResponder];
+}
+
+- (void)searchBarSearchButtonClicked:(UISearchBar *)searchBar {
+    [self generateSearchDataByKeyword:searchBar.text];
+    [searchBar resignFirstResponder];
+}
+
+// 输入搜索关键字
+- (void)searchBar:(UISearchBar *)searchBar textDidChange:(NSString *)searchText {
+    if ([searchBar.text isEqual:@""]) {
+        self.isSearching = NO;
+        [self.tableview reloadData];
+    } else {
+        [self generateSearchDataByKeyword:searchText];
+    }
 }
 
 @end

@@ -122,11 +122,13 @@ ios-dev-resources
 
 * [UITableView](UIKit/UITableView/readme.md) -- 表格视图
 
-* UIWebView**
+* UIWebView
 
-* UIInputView**
+* UIInputView
 
-* [UISearchBar](UIKit/UISearchBar/readme.md)** -- 搜索条
+* [UISearchBar](UIKit/UISearchBar/readme.md) -- 搜索条
+
+* [UISearchController](UIKit/UISearchController/readme.md) -- 搜索控制器
 
 * [UIVisualEffectView](UIKit/UIVisualEffectView/readme.md) -- 图像虚化
 
