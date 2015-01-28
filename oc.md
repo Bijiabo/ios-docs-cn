@@ -467,4 +467,5 @@
 * [@property和@synthesize关键字详解](http://www.cnblogs.com/QM80/p/3576282.html)
 * [Objective-C简介](http://zh.wikipedia.org/wiki/Objective-C)
 * [Objective-C分类(category)和扩展(Extension)](http://blog.csdn.net/yhawaii/article/details/6992094)
+* [Objective-C中的instancetype和id关键字](http://blog.csdn.net/wzzvictory/article/details/16994913)
 		

@@ -152,6 +152,7 @@ ios-dev-resources
 * [EGOTableViewPullRefresh](https://github.com/enormego/EGOTableViewPullRefresh) -- 上拉刷新
 * [JSONKit](https://github.com/johnezang/JSONKit) -- json处理
 * [ISHPermissionKit](https://github.com/iosphere/ISHPermissionKit) -- 以统一的方式请求用户授权
+* [TBXML](https://github.com/71squared/TBXML) -- XML解析
 
 <br>
 
@@ -180,6 +181,7 @@ ios-dev-resources
 * [苹果开发者账号那些事儿（一）账号类型](http://ryantang.me/blog/2013/08/28/apple-account-1/)
 * [苹果开发者账号那些事儿（二）证书](http://ryantang.me/blog/2013/09/03/apple-account-2/)
 * [苹果开发者账号那些事儿（三）配置文件](http://ryantang.me/blog/2013/11/28/apple-account-3/)
+* [Prefix.pch文件详解](http://blog.csdn.net/duxinfeng2010/article/details/8287550)
 
 
 <br>
