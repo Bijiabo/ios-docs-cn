@@ -132,27 +132,48 @@ NSBlockOperation：
     	
 常用方法：
 
-* dispatch_apply()
+(1) dispatch_apply()
 
 	说明：重复执行某个任务，该方法没法异步执行（可使用dispatch_async()包装后执行来避免线程阻塞）。
 	
-* dispatch_once()
+(2) dispatch_once()
 
-	说明：此方法中的任务只会执行一次，重复调用也没办法重复执行。
-	
-* dispatch_time()
+	说明：此方法中的任务只会执行一次，重复调用也没办法重复执行，而且该方法是线程安全的（在多个线程中调用
+	     也没问题）。
+	     
+	例子：利用该方法实现单例
+		// Test.h
+		@interface Test:NSObject
+		@end
+		
+		// Test.m
+		@implementation Test
+		+ (Test *)sharedInstance {
+			static Test *instance;
+			static dispatch_once_t predicate;
+			
+			dispatch_once(&predicate, ^{
+        		instance = [[Test alloc] init];
+    		});
+    		
+    		return instance;
+		}
+		@end
+		
+(3) dispatch_time()
 
 	说明：延迟一定的时间后执行
 	
-* dispatch_barrier_async()
+(4) dispatch_barrier_async()
 
-	说明：使用此方法创建的任务，首先会查看队列中有没有别的任务要执行，如果有，则会等待已有任务执行完毕再执行。同时在此方法后添加的任务，必须等待此方法中任务执行后才能执行。
+	说明：使用此方法创建的任务，首先会查看队列中有没有别的任务要执行，如果有，则会等待已有任务执行完毕
+	     再执行。同时在此方法后添加的任务，必须等待此方法中任务执行后才能执行。
 
-* dispatch_group_async()
+(5) dispatch_group_async()
 
 	说明：对任务分组管理
 	
-* dispatch_group_notify()
+(6) dispatch_group_notify()
 
 	说明：如果一组任务全部完成，可以通过该方法获得完成通知。
 

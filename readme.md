@@ -1,7 +1,14 @@
-ios-dev-resources
-=================
+# ios-dev-resources
 
-> 说明：IOS 开发知识及资源沉淀。
+### Cocoa是什么？
+
+简介：它是创建 `Mac OS X` 和 `IOS` 程序的原生面向对象API，为这两种应用提供了编程环境。
+
+它包含了众多子框架，其中最重要的要数 **Foundation** 和 **UIKit**：
+
+* **Foundation** 是框架的基础，包含了大量常用的API，与界面无关；
+
+* **UIKit** 是基础的UI类库。
 
 <br>
 
@@ -182,6 +189,9 @@ ios-dev-resources
 * [苹果开发者账号那些事儿（二）证书](http://ryantang.me/blog/2013/09/03/apple-account-2/)
 * [苹果开发者账号那些事儿（三）配置文件](http://ryantang.me/blog/2013/11/28/apple-account-3/)
 * [Prefix.pch文件详解](http://blog.csdn.net/duxinfeng2010/article/details/8287550)
+* [深入浅出Cocoa](http://blog.csdn.net/column/details/cocoa.html)
+* [Apple移动设备处理器指令集 armv6、armv7、armv7s及arm64](http://www.cocoachina.com/ios/20140915/9620.html)
+* [iOS生成静态库方法-iOS集成静态库-iOS合并静态库](http://blog.sina.com.cn/s/blog_7b9d64af0101jlym.html)
 
 
 <br>
@@ -190,3 +200,10 @@ ios-dev-resources
 
 * [关于viewWithTag的一点说明](http://blog.csdn.net/smking/article/details/8590547)
 * [判断是否有权限访问相机、相册、定位](http://blog.csdn.net/cafei111/article/details/25793145)
+
+<br>
+
+### 七. Mac设备相关使用技巧
+
+* [如何关闭iPhone连上Mac时iTunes自动连接](http://jingyan.baidu.com/article/f0e83a25a856b022e5910188.html)
+* [如何关闭iPhone连上Mac时iPhoto自动连接] -- iPhoto -> 偏好设置 -> 连接相机时打开 -> 设置为“无应用程序"
