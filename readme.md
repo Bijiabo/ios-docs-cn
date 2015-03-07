@@ -13,6 +13,7 @@
 <br>
 
 ### 一. IOS应用开发知识体系
+***
 
 ![IOS应用开发知识体系](resources/IOS应用开发知识体系.png)
 
@@ -143,7 +144,23 @@
 
 <br>
 
-#### **2. Assets Library**
+#### **2. 蓝牙框架**
+
+* GameKit
+
+* MultipeerConnectivity
+
+* CoreBluetooth
+
+<br>
+
+#### **3. 社交分享**
+
+* [Social](http://www.cnblogs.com/kenshincui/p/4220402.html#social)
+
+<br>
+
+#### **4. Assets Library**
 
 * [AssetsLibrary](https://developer.apple.com/library/ios/documentation/AssetsLibrary/Reference/AssetsLibraryFramework/index.html)
 * [Photos](https://developer.apple.com/library/ios/documentation/Photos/Reference/Photos_Framework/index.html#//apple_ref/doc/uid/TP40014408) 【IOS8开始可用】
@@ -151,7 +168,14 @@
 
 <br>
 
-#### **3. 常用的第三方库**
+#### **5. 通讯录**
+
+* [AddressBook](http://www.cnblogs.com/kenshincui/p/4220402.html#contact)
+
+<br>
+
+### 五. 常用的第三方库
+***
 
 * [MBProgressHUD](https://github.com/jdg/MBProgressHUD) -- 进度指示器（如常见的“加载中...”）
 * [AFNetworking](https://github.com/AFNetworking/AFNetworking) -- 处理网络请求
@@ -163,7 +187,7 @@
 
 <br>
 
-### 五. 参考资料
+### 六. 参考资料
 ***
 
 * [IOS开发教程（官方中文版）](https://developer.apple.com/LIBRARY/ios/referencelibrary/GettingStarted/RoadMapiOSCh/FirstTutorial.html#//apple_ref/doc/uid/TP40012668-CH3-SW1)
@@ -196,14 +220,16 @@
 
 <br>
 
-### 六. 需注意的知识点
+### 七. 需注意的知识点
+***
 
 * [关于viewWithTag的一点说明](http://blog.csdn.net/smking/article/details/8590547)
 * [判断是否有权限访问相机、相册、定位](http://blog.csdn.net/cafei111/article/details/25793145)
 
 <br>
 
-### 七. Mac设备相关使用技巧
+### 八. Mac设备相关使用技巧
+***
 
 * [如何关闭iPhone连上Mac时iTunes自动连接](http://jingyan.baidu.com/article/f0e83a25a856b022e5910188.html)
 * [如何关闭iPhone连上Mac时iPhoto自动连接] -- iPhoto -> 偏好设置 -> 连接相机时打开 -> 设置为“无应用程序"

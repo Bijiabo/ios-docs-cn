@@ -1,19 +1,19 @@
 //
-//  TestTests.m
-//  TestTests
+//  UIPageViewControllerDemoTests.m
+//  UIPageViewControllerDemoTests
 //
-//  Created by xidanjueying on 15/2/10.
+//  Created by xidanjueying on 15/3/6.
 //  Copyright (c) 2015年 xidanjueying. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 
-@interface TestTests : XCTestCase
+@interface UIPageViewControllerDemoTests : XCTestCase
 
 @end
 
-@implementation TestTests
+@implementation UIPageViewControllerDemoTests
 
 - (void)setUp {
     [super setUp];

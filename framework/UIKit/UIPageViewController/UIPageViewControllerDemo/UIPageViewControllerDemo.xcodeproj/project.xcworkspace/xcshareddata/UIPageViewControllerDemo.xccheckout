@@ -5,20 +5,20 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>7301D0DB-C6DA-4E68-B8C1-91C765245EA5</string>
+	<string>3955C5B1-76C2-47A3-B9A2-538F494FBD1E</string>
 	<key>IDESourceControlProjectName</key>
-	<string>Test</string>
+	<string>UIPageViewControllerDemo</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>7112B28E47F6CE13D577AFE588868D6713E3766F</key>
 		<string>github.com:mytcer/ios-dev-resources.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>demo/Test/Test.xcodeproj</string>
+	<string>framework/UIKit/UIPageViewController/UIPageViewControllerDemo/UIPageViewControllerDemo.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>7112B28E47F6CE13D577AFE588868D6713E3766F</key>
-		<string>../../../..</string>
+		<string>../../../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>github.com:mytcer/ios-dev-resources.git</string>

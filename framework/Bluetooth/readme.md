@@ -10,7 +10,7 @@
 
 **示例**：
 
-* [在同一个应用之间传输照片（需要在两个设备商运行该应用）](../demo/Bluetooth/GameKitDemo)
+* [在同一个应用之间传输照片（需要在两个设备商运行该应用）](GameKitDemo)
 
 <br>
 
@@ -26,8 +26,8 @@
 
 **示例**：
 
-* [负责广播服务的app](../demo/Bluetooth/MultipeerConnectivityBroadCast)
-* [负责发现服务的app](../demo/Bluetooth/MultipeerConnectivityFinder)
+* [负责广播服务的app](MultipeerConnectivityBroadCast)
+* [负责发现服务的app](MultipeerConnectivityFinder)
 
 <br>
 

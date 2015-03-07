@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D3E61C801A89A629004F806A"
-               BuildableName = "Test.app"
-               BlueprintName = "Test"
-               ReferencedContainer = "container:Test.xcodeproj">
+               BlueprintIdentifier = "D3BE89781AA9B1C700DCE737"
+               BuildableName = "UIPageViewControllerDemo.app"
+               BlueprintName = "UIPageViewControllerDemo"
+               ReferencedContainer = "container:UIPageViewControllerDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -28,10 +28,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D3E61C991A89A629004F806A"
-               BuildableName = "TestTests.xctest"
-               BlueprintName = "TestTests"
-               ReferencedContainer = "container:Test.xcodeproj">
+               BlueprintIdentifier = "D3BE89911AA9B1C700DCE737"
+               BuildableName = "UIPageViewControllerDemoTests.xctest"
+               BlueprintName = "UIPageViewControllerDemoTests"
+               ReferencedContainer = "container:UIPageViewControllerDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,20 +46,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D3E61C991A89A629004F806A"
-               BuildableName = "TestTests.xctest"
-               BlueprintName = "TestTests"
-               ReferencedContainer = "container:Test.xcodeproj">
+               BlueprintIdentifier = "D3BE89911AA9B1C700DCE737"
+               BuildableName = "UIPageViewControllerDemoTests.xctest"
+               BlueprintName = "UIPageViewControllerDemoTests"
+               ReferencedContainer = "container:UIPageViewControllerDemo.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D3E61C801A89A629004F806A"
-            BuildableName = "Test.app"
-            BlueprintName = "Test"
-            ReferencedContainer = "container:Test.xcodeproj">
+            BlueprintIdentifier = "D3BE89781AA9B1C700DCE737"
+            BuildableName = "UIPageViewControllerDemo.app"
+            BlueprintName = "UIPageViewControllerDemo"
+            ReferencedContainer = "container:UIPageViewControllerDemo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -75,10 +75,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D3E61C801A89A629004F806A"
-            BuildableName = "Test.app"
-            BlueprintName = "Test"
-            ReferencedContainer = "container:Test.xcodeproj">
+            BlueprintIdentifier = "D3BE89781AA9B1C700DCE737"
+            BuildableName = "UIPageViewControllerDemo.app"
+            BlueprintName = "UIPageViewControllerDemo"
+            ReferencedContainer = "container:UIPageViewControllerDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -93,10 +93,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D3E61C801A89A629004F806A"
-            BuildableName = "Test.app"
-            BlueprintName = "Test"
-            ReferencedContainer = "container:Test.xcodeproj">
+            BlueprintIdentifier = "D3BE89781AA9B1C700DCE737"
+            BuildableName = "UIPageViewControllerDemo.app"
+            BlueprintName = "UIPageViewControllerDemo"
+            ReferencedContainer = "container:UIPageViewControllerDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
