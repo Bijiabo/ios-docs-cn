@@ -17,54 +17,53 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-    // 实例化
-    UILocalNotification *notification = [[UILocalNotification alloc] init];
+    UIApplication *app = [UIApplication sharedApplication];
     
-    if (notification != nil) {
-        NSDate *now = [NSDate date];
-        // 从现在开始，10秒以后通知
-        notification.fireDate = [now dateByAddingTimeInterval:10];
-        // 使用本地时区
-        notification.timeZone = [NSTimeZone defaultTimeZone];
-        // 设置顶部提示内容
-        notification.alertBody = @"顶部提示内容，通知时间到啦";
-        // 设置通知提示音，这里使用默认的
-        notification.soundName = UILocalNotificationDefaultSoundName;
-        // 操作按钮上的文字
-        notification.alertAction = @"查看";
-        // 这个通知到时间时，你的应用程序右上角显示的数字。
-        notification.applicationIconBadgeNumber = 1;
-        // 假如你的通知不会在还没到时间的时候手动取消 那下面的两行代码你可以不用写了。
-        notification.userInfo = @{@"key":@"value"};
-        // 启动这个通知
-        [[UIApplication sharedApplication] scheduleLocalNotification:notification];
+    if (app.currentUserNotificationSettings.types != UIUserNotificationTypeNone) { // 已获得发送通知的授权
+        [self addLocalNotification];
+    } else { // 请求授权，如果不请求授权，则在“设置”中是没有对应的“通知”设置项的
+        UIUserNotificationSettings *settings = [UIUserNotificationSettings settingsForTypes:UIUserNotificationTypeAlert|UIUserNotificationTypeBadge|UIUserNotificationTypeSound categories:nil];
+        [app registerUserNotificationSettings:settings];
     }
     
     return YES;
 }
 
-- (void)application:(UIApplication *)application didReceiveLocalNotification:(UILocalNotification*)notification{
+// 调用过registerUserNotificationSettings:方法后，会马上执行该方法
+- (void)application:(UIApplication *)application didRegisterUserNotificationSettings:(UIUserNotificationSettings *)notificationSettings {
+    if (notificationSettings.types != UIUserNotificationTypeNone) {
+        [self addLocalNotification];
+    }
+}
+
+- (void)addLocalNotification {
+    // 初始化本地通知对象
+    UILocalNotification *notification = [[UILocalNotification alloc] init];
     
-    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"LocalNotification"
-                                                    message:notification.alertBody
-                                                   delegate:nil
-                                          cancelButtonTitle:@"确定"
-                                          otherButtonTitles:@"取消", nil];
-    [alert show];
+    // 设置调用时间，10秒后触发通知
+    notification.fireDate = [NSDate dateWithTimeIntervalSinceNow:10];
+    // 通知重复次数
+    notification.repeatInterval = 1;
+    // 设置通知内容
+    notification.alertBody = @"有新特性，快去体验下吧~";
+    // 锁屏后的滑动动作提示
+    notification.alertAction = @"打开应用";
+    // 点击通知打开应用时的启动图片
+    notification.alertLaunchImage = @"Default";
+    // 应用程序右上角的消息数量
+    notification.applicationIconBadgeNumber = 1;
+    // 收到通知时播放的声音
+    notification.soundName = UILocalNotificationDefaultSoundName;
+    // 绑定到通知上的其他附加信息
+    notification.userInfo = @{@"user":@"xidanjueying"};
     
-    NSDictionary* dic = [[NSDictionary alloc]init];
-    //这里可以接受到本地通知中心发送的消息
-    dic = notification.userInfo;
-    NSLog(@"user info = %@",[dic objectForKey:@"key"]);
-    
-    // 图标上的数字减1
-    //application.applicationIconBadgeNumber -= 1;
+    // 调用本地通知
+    [[UIApplication sharedApplication] scheduleLocalNotification:notification];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {
-    // 图标上的数字减1
-    //application.applicationIconBadgeNumber -= 1;
+
 }
 
 - (void)applicationDidEnterBackground:(UIApplication *)application {
@@ -73,7 +72,8 @@
 }
 
 - (void)applicationWillEnterForeground:(UIApplication *)application {
-    // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
+    // 应用进入前台后更新消息数量
+    [[UIApplication sharedApplication] setApplicationIconBadgeNumber:0];
 }
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {

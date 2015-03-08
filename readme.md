@@ -184,6 +184,8 @@
 * [JSONKit](https://github.com/johnezang/JSONKit) -- json处理
 * [ISHPermissionKit](https://github.com/iosphere/ISHPermissionKit) -- 以统一的方式请求用户授权
 * [TBXML](https://github.com/71squared/TBXML) -- XML解析
+* [ZBarSDK](https://github.com/bmorton/ZBarSDK) -- 二维码扫描
+* [ObjQREncoder](https://github.com/jverkoey/ObjQREncoder) -- 二维码生成
 
 <br>
 
