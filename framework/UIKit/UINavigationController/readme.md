@@ -21,3 +21,5 @@
 * [UINavigationController使用详解（二）](http://blog.csdn.net/totogo2010/article/details/7682433)
 
 * [UINavigationController使用详解（三）](http://blog.csdn.net/totogo2010/article/details/7682641)
+
+* [滑动返回 与 interactivePopGestureRecognizer](http://www.tuicool.com/articles/vMfAVv)

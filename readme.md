@@ -186,6 +186,8 @@
 * [TBXML](https://github.com/71squared/TBXML) -- XML解析
 * [ZBarSDK](https://github.com/bmorton/ZBarSDK) -- 二维码扫描
 * [ObjQREncoder](https://github.com/jverkoey/ObjQREncoder) -- 二维码生成
+* [KINWebBrowser](https://github.com/dfmuir/KINWebBrowser) -- 同时兼容WKWebView和UIWebView
+* [iOS-Slide-Menu](https://github.com/aryaxt/iOS-Slide-Menu) -- ios侧滑菜单
 
 <br>
 
@@ -218,6 +220,8 @@
 * [深入浅出Cocoa](http://blog.csdn.net/column/details/cocoa.html)
 * [Apple移动设备处理器指令集 armv6、armv7、armv7s及arm64](http://www.cocoachina.com/ios/20140915/9620.html)
 * [iOS生成静态库方法-iOS集成静态库-iOS合并静态库](http://blog.sina.com.cn/s/blog_7b9d64af0101jlym.html)
+* [IOS沙盒机制和文件操作（一）](http://blog.csdn.net/totogo2010/article/details/7669837)
+* [IOS沙盒机制和文件操作（二）](http://blog.csdn.net/totogo2010/article/details/7670417)
 
 
 <br>
