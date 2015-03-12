@@ -17,19 +17,41 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    NSString *url = @"http://gw.api.taobao.com/router/rest";
     
-    NSString *url = @"http://gw.api.tbsandbox.com/router/rest";
-    //NSString *url = @"http://gw.api.taobao.com/router/rest";
-    NSMutableDictionary *params=[[NSMutableDictionary alloc] init];
+    // userdata 为上报到智能云的用户数据
+    NSDictionary *attrinfo = @{
+                               @"unit":@"kg",
+                               @"data_collect_time":@1425343683,
+                               @"data_upload_time":@1425343689,
+                               @"value":@"71.6",
+                               @"attribute":@"weight"
+                               };
+    NSDictionary *userdata = @{
+                               @"device_model":@"DREAMMAKER_HEALTH_AIRPURIFIER_DM260S01_i",
+                               @"vendor_user_id":@"38907410",
+                               @"data_list":@[attrinfo]
+                            };
     
-    [params setValue:@"aliyun.alink.devicedata.post" forKey:@"method"];
-    [params setValue:@"json" forKey:@"format"];
-    [params setValue:@"2.0" forKey:@"v"];
-    [params setValue:@"888" forKey:@"value"];
-    [params setValue:@"size" forKey:@"attribute"];
+    // 将userdata 转换为 json string
+    NSData *jsondata = [NSJSONSerialization dataWithJSONObject:userdata
+                                                       options:0
+                                                         error:nil];
+    NSString *jsonstr = [[NSString alloc] initWithData:jsondata
+                                              encoding:NSUTF8StringEncoding];
+    
+    // 拼装系统参数和用户数据
+    NSDictionary *params = @{
+                             @"method": @"aliyun.alink.userdata.post",
+                             @"format": @"json",
+                             @"v": @"2.0",
+                             @"input": jsonstr
+                            };
 
+    // 上报到智能云
     [TaeTopClient doRequest:params url:url onComplete:^(NSString *result) {
-        NSLog(@"TAE_TOP_LOG: %@", result);
+        NSLog(@"%@", result);
+        // do something
     }];
 }
 

@@ -188,6 +188,8 @@
 * [ObjQREncoder](https://github.com/jverkoey/ObjQREncoder) -- 二维码生成
 * [KINWebBrowser](https://github.com/dfmuir/KINWebBrowser) -- 同时兼容WKWebView和UIWebView
 * [iOS-Slide-Menu](https://github.com/aryaxt/iOS-Slide-Menu) -- ios侧滑菜单
+* [Reachability](https://github.com/tonymillion/Reachability) -- 检测iOS设备网络环境的库（目标网络是否可用、网络的连接方式及连接方式的变更）
+* [PushSharp](https://github.com/Redth/PushSharp) -- 用来给APNS发送消息的库
 
 <br>
 
@@ -226,11 +228,12 @@
 
 <br>
 
-### 七. 需注意的知识点
+### 七. 经验
 ***
 
 * [关于viewWithTag的一点说明](http://blog.csdn.net/smking/article/details/8590547)
 * [判断是否有权限访问相机、相册、定位](http://blog.csdn.net/cafei111/article/details/25793145)
+* [push vc时如何隐藏tabbar之hidesBottomBarWhenPushed的使用](http://www.isaced.com/post-223.html)
 
 <br>
 
@@ -239,3 +242,10 @@
 
 * [如何关闭iPhone连上Mac时iTunes自动连接](http://jingyan.baidu.com/article/f0e83a25a856b022e5910188.html)
 * [如何关闭iPhone连上Mac时iPhoto自动连接] -- iPhoto -> 偏好设置 -> 连接相机时打开 -> 设置为“无应用程序"
+
+<br>
+
+### 九. 学习资源
+***
+
+* [https://github.com/vsouza/awesome-ios](https://github.com/vsouza/awesome-ios)

@@ -46,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1491DC8A93B155A59BBE4C53 /* libPods-xidanjueying.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-xidanjueying.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3EDB6AD1AA6BE2800F16BB0 /* xidanjueying.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xidanjueying.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3EDB6B11AA6BE2800F16BB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3EDB6B21AA6BE2800F16BB0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -114,6 +115,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		34174119595235C1AA9C27A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1491DC8A93B155A59BBE4C53 /* libPods-xidanjueying.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D3EDB6A41AA6BE2800F16BB0 = {
 			isa = PBXGroup;
 			children = (
@@ -139,6 +148,7 @@
 				D3EDB6AF1AA6BE2800F16BB0 /* xidanjueying */,
 				D3EDB6C91AA6BE2800F16BB0 /* xidanjueyingTests */,
 				D3EDB6AE1AA6BE2800F16BB0 /* Products */,
+				34174119595235C1AA9C27A3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -199,9 +209,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D3EDB6D01AA6BE2800F16BB0 /* Build configuration list for PBXNativeTarget "xidanjueying" */;
 			buildPhases = (
+				B84FBCE1130ABA37D5012323 /* Check Pods Manifest.lock */,
 				D3EDB6A91AA6BE2800F16BB0 /* Sources */,
 				D3EDB6AA1AA6BE2800F16BB0 /* Frameworks */,
 				D3EDB6AB1AA6BE2800F16BB0 /* Resources */,
+				7C251C4D486EAAA5CDFD048B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -289,6 +301,41 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7C251C4D486EAAA5CDFD048B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "
+";
+			showEnvVarsInLog = 0;
+		};
+		B84FBCE1130ABA37D5012323 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D3EDB6A91AA6BE2800F16BB0 /* Sources */ = {
@@ -504,6 +551,7 @@
 				D3EDB6D21AA6BE2800F16BB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D3EDB6D31AA6BE2800F16BB0 /* Build configuration list for PBXNativeTarget "xidanjueyingTests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +560,7 @@
 				D3EDB6D51AA6BE2800F16BB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
