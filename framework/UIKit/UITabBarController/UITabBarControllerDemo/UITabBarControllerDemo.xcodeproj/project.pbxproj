@@ -361,6 +361,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"DEBUG_TEST=1",
+				);
 				INFOPLIST_FILE = UITabBarControllerDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -430,6 +434,7 @@
 				D39A7E971A199ABA00A652E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D39A7E981A199ABA00A652E2 /* Build configuration list for PBXNativeTarget "UITabBarControllerDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -438,6 +443,7 @@
 				D39A7E9A1A199ABA00A652E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

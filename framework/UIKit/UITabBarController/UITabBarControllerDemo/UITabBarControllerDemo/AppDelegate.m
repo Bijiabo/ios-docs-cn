@@ -29,6 +29,11 @@
     ThreeViewController *vc3 = [[ThreeViewController alloc] init];
     FourViewController *vc4 = [[FourViewController alloc] init];
     
+#ifdef DEBUG_TEST
+    NSLog(@"%@", @"haha");
+   
+#endif
+    
     // 通过tabbar controller来管理view controller
     tabbarController.viewControllers = @[vc1, vc2, vc3, vc4];
     

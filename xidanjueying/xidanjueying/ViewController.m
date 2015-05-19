@@ -42,10 +42,9 @@
     
     // 拼装系统参数和用户数据
     NSDictionary *params = @{
-                             @"method": @"aliyun.alink.userdata.post",
+                             @"method": @"aliyun.alink.bind.user",
                              @"format": @"json",
-                             @"v": @"2.0",
-                             @"input": jsonstr
+                             @"vendor_uid": @"test"
                             };
 
     // 上报到智能云

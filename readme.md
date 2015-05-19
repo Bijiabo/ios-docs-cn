@@ -1,16 +1,5 @@
 # ios-dev-resources
-
-### Cocoa是什么？
-
-简介：它是创建 `Mac OS X` 和 `IOS` 程序的原生面向对象API，为这两种应用提供了编程环境。
-
-它包含了众多子框架，其中最重要的要数 **Foundation** 和 **UIKit**：
-
-* **Foundation** 是框架的基础，包含了大量常用的API，与界面无关；
-
-* **UIKit** 是基础的UI类库。
-
-<br>
+***
 
 ### 一. IOS应用开发知识体系
 ***
@@ -19,19 +8,7 @@
 
 <br>
 
-### 二. 常用工具
-***
-
-* xcode
-	* [Instruments使用教程](http://blog.csdn.net/toss156/article/details/7579294)
-	* [Xcode and #pragma mark](http://www.360doc.com/content/13/1210/22/2036337_336192229.shtml)
-	* [xcode对比两个分支中同一个文件](http://blog.csdn.net/mmoaay/article/details/41115283)
-
-* [CocoaPods](http://cocoapods.org/)
-
-<br>
-
-### 三. 编程语言
+### 二. 编程语言
 ***
 
 * [Objective-C](oc.md)
@@ -39,7 +16,7 @@
 
 <br>
 
-### 四. 常用框架
+### 三. 常用框架
 ***
 
 #### **1. UIKit**
@@ -174,7 +151,19 @@
 
 <br>
 
-### 五. 常用的第三方库
+#### **6. 地理定位**
+
+* CoreLocation
+
+<br>
+
+#### **7. 地图**
+
+* MapKit
+
+<br>
+
+### 四. 常用的第三方库
 ***
 
 * [MBProgressHUD](https://github.com/jdg/MBProgressHUD) -- 进度指示器（如常见的“加载中...”）
@@ -190,10 +179,12 @@
 * [iOS-Slide-Menu](https://github.com/aryaxt/iOS-Slide-Menu) -- ios侧滑菜单
 * [Reachability](https://github.com/tonymillion/Reachability) -- 检测iOS设备网络环境的库（目标网络是否可用、网络的连接方式及连接方式的变更）
 * [PushSharp](https://github.com/Redth/PushSharp) -- 用来给APNS发送消息的库
+* [Masonry](https://github.com/Masonry/Masonry) -- 自动布局
+* [ios-charts](https://github.com/danielgindi/ios-charts)
 
 <br>
 
-### 六. 参考资料
+### 五. 参考资料
 ***
 
 * [IOS开发教程（官方中文版）](https://developer.apple.com/LIBRARY/ios/referencelibrary/GettingStarted/RoadMapiOSCh/FirstTutorial.html#//apple_ref/doc/uid/TP40012668-CH3-SW1)
@@ -222,30 +213,35 @@
 * [深入浅出Cocoa](http://blog.csdn.net/column/details/cocoa.html)
 * [Apple移动设备处理器指令集 armv6、armv7、armv7s及arm64](http://www.cocoachina.com/ios/20140915/9620.html)
 * [iOS生成静态库方法-iOS集成静态库-iOS合并静态库](http://blog.sina.com.cn/s/blog_7b9d64af0101jlym.html)
-* [IOS沙盒机制和文件操作（一）](http://blog.csdn.net/totogo2010/article/details/7669837)
-* [IOS沙盒机制和文件操作（二）](http://blog.csdn.net/totogo2010/article/details/7670417)
+* [在iOS中创建静态库](http://www.cocoachina.com/industry/20131204/7468.html)
+* [使用CocoaPods开发并打包静态库](http://www.itjhwd.com/cocoapods-kajbk/)
+* [Coding Guidelines for Cocoa](https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/CodingGuidelines/CodingGuidelines.html)
+* [堆和栈的区别](http://blog.csdn.net/hairetz/article/details/4141043)
 
 
 <br>
 
-### 七. 经验
+### 六. 经验
 ***
 
 * [关于viewWithTag的一点说明](http://blog.csdn.net/smking/article/details/8590547)
 * [判断是否有权限访问相机、相册、定位](http://blog.csdn.net/cafei111/article/details/25793145)
 * [push vc时如何隐藏tabbar之hidesBottomBarWhenPushed的使用](http://www.isaced.com/post-223.html)
+* [解决[UIColor colorWithRed: green: blue: alpha:] 失效问题](http://blog.csdn.net/chaoyuan899/article/details/27321235)
+* [UIImagePickerController选择图片发送后旋转90度的问题](http://blog.csdn.net/mideveloper/article/details/44101267)
+
 
 <br>
 
-### 八. Mac设备相关使用技巧
-***
-
-* [如何关闭iPhone连上Mac时iTunes自动连接](http://jingyan.baidu.com/article/f0e83a25a856b022e5910188.html)
-* [如何关闭iPhone连上Mac时iPhoto自动连接] -- iPhoto -> 偏好设置 -> 连接相机时打开 -> 设置为“无应用程序"
-
-<br>
-
-### 九. 学习资源
+### 七. 学习资源
 ***
 
 * [https://github.com/vsouza/awesome-ios](https://github.com/vsouza/awesome-ios)
+
+
+<br>
+
+### 八. 工具
+***
+
+* [生成appstore审核截图](https://appscreens.io/yK7cLuBNij)
