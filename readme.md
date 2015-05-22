@@ -217,31 +217,26 @@
 * [使用CocoaPods开发并打包静态库](http://www.itjhwd.com/cocoapods-kajbk/)
 * [Coding Guidelines for Cocoa](https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/CodingGuidelines/CodingGuidelines.html)
 * [堆和栈的区别](http://blog.csdn.net/hairetz/article/details/4141043)
-
-
-<br>
-
-### 六. 经验
-***
-
+* [Core Animation编程指南](http://www.cocoachina.com/bbs/read.php?tid=84461)
+* [Blocks编程要点](http://www.cocoachina.com/bbs/read.php?tid=87593)
+* [多线程编程指南](http://www.cocoachina.com/bbs/read.php?tid=87592)
 * [关于viewWithTag的一点说明](http://blog.csdn.net/smking/article/details/8590547)
 * [判断是否有权限访问相机、相册、定位](http://blog.csdn.net/cafei111/article/details/25793145)
 * [push vc时如何隐藏tabbar之hidesBottomBarWhenPushed的使用](http://www.isaced.com/post-223.html)
 * [解决[UIColor colorWithRed: green: blue: alpha:] 失效问题](http://blog.csdn.net/chaoyuan899/article/details/27321235)
 * [UIImagePickerController选择图片发送后旋转90度的问题](http://blog.csdn.net/mideveloper/article/details/44101267)
-
-
-<br>
-
-### 七. 学习资源
-***
-
 * [https://github.com/vsouza/awesome-ios](https://github.com/vsouza/awesome-ios)
 
+<br>
+
+### 六. 测试
+
+* [OCUnit+xctool进行单元测试](http://blog.csdn.net/sqc3375177/article/details/40857313)
+* [测试框架](http://www.infoq.com/cn/articles/build-ios-continuous-integration-platform-part2)
 
 <br>
 
-### 八. 工具
+### 七. 工具
 ***
 
 * [生成appstore审核截图](https://appscreens.io/yK7cLuBNij)
