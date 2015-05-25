@@ -14,24 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D30FDF5E1B0D87E100595302"
-               BuildableName = "haha.app"
-               BlueprintName = "haha"
-               ReferencedContainer = "container:haha.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D30FDF771B0D87E100595302"
-               BuildableName = "hahaTests.xctest"
-               BlueprintName = "hahaTests"
-               ReferencedContainer = "container:haha.xcodeproj">
+               BlueprintIdentifier = "D3A143011B12066400504D39"
+               BuildableName = "SimpleCollectionViewDemo.app"
+               BlueprintName = "SimpleCollectionViewDemo"
+               ReferencedContainer = "container:SimpleCollectionViewDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -42,24 +28,14 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D30FDF771B0D87E100595302"
-               BuildableName = "hahaTests.xctest"
-               BlueprintName = "hahaTests"
-               ReferencedContainer = "container:haha.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D30FDF5E1B0D87E100595302"
-            BuildableName = "haha.app"
-            BlueprintName = "haha"
-            ReferencedContainer = "container:haha.xcodeproj">
+            BlueprintIdentifier = "D3A143011B12066400504D39"
+            BuildableName = "SimpleCollectionViewDemo.app"
+            BlueprintName = "SimpleCollectionViewDemo"
+            ReferencedContainer = "container:SimpleCollectionViewDemo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -76,10 +52,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D30FDF5E1B0D87E100595302"
-            BuildableName = "haha.app"
-            BlueprintName = "haha"
-            ReferencedContainer = "container:haha.xcodeproj">
+            BlueprintIdentifier = "D3A143011B12066400504D39"
+            BuildableName = "SimpleCollectionViewDemo.app"
+            BlueprintName = "SimpleCollectionViewDemo"
+            ReferencedContainer = "container:SimpleCollectionViewDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,10 +71,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D30FDF5E1B0D87E100595302"
-            BuildableName = "haha.app"
-            BlueprintName = "haha"
-            ReferencedContainer = "container:haha.xcodeproj">
+            BlueprintIdentifier = "D3A143011B12066400504D39"
+            BuildableName = "SimpleCollectionViewDemo.app"
+            BlueprintName = "SimpleCollectionViewDemo"
+            ReferencedContainer = "container:SimpleCollectionViewDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

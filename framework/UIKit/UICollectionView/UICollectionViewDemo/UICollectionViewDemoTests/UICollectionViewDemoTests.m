@@ -1,19 +1,19 @@
 //
-//  hahaTests.m
-//  hahaTests
+//  UICollectionViewDemoTests.m
+//  UICollectionViewDemoTests
 //
-//  Created by xidanjueying on 15/5/21.
+//  Created by xidanjueying on 15/5/24.
 //  Copyright (c) 2015年 xidanjueying. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 
-@interface hahaTests : XCTestCase
+@interface UICollectionViewDemoTests : XCTestCase
 
 @end
 
-@implementation hahaTests
+@implementation UICollectionViewDemoTests
 
 - (void)setUp {
     [super setUp];

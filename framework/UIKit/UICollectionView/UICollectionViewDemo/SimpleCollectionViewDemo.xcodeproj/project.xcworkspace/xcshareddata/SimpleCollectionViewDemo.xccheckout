@@ -5,20 +5,20 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>74E5134D-4903-46FA-AF65-3B280FF6AD86</string>
+	<string>D0C488B5-3722-481F-AB92-A00FFAA4B8A9</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>SimpleCollectionViewDemo</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>7112B28E47F6CE13D577AFE588868D6713E3766F</key>
 		<string>github.com:mytcer/ios-dev-resources.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>haha/haha.xcodeproj/project.xcworkspace</string>
+	<string>framework/UIKit/UICollectionView/UICollectionViewDemo/SimpleCollectionViewDemo.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>7112B28E47F6CE13D577AFE588868D6713E3766F</key>
-		<string>../../..</string>
+		<string>../../../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>github.com:mytcer/ios-dev-resources.git</string>
