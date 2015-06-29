@@ -31,3 +31,4 @@
 ### 参考
 
 * [UIWebView详解](http://www.cnblogs.com/ctaodream/p/3305931.html)
+* [IOS中实现UIWebView中链接URL的拦截](http://blog.csdn.net/u014366923/article/details/41701641)

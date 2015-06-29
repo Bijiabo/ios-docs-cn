@@ -91,7 +91,7 @@
     
     cell.textLabel.text = self.namelist[indexPath.row];
     cell.detailTextLabel.text = self.detaillist[indexPath.row];
-    cell.imageView.image = [UIImage imageNamed:@"50x50"];
+    cell.imageView.image = [UIImage imageNamed:@"select"];
     cell.imageView.layer.cornerRadius = 25;
     cell.imageView.layer.masksToBounds = YES;
     // 显示在cell最右边的按钮, accessoryType用于设置按钮类型，若accessoryView的属性不为nil，则accessoryType的值会被忽略
@@ -99,7 +99,7 @@
     // UITableViewCellAccessoryCheckmark -- 对勾
     // UITableViewCellAccessoryDetailDisclosureButton -- "info"按钮 + 向右的箭头
     // UITableViewCellAccessoryDetailButton -- "info"按钮
-    cell.accessoryType = UITableViewCellAccessoryDetailButton;
+    cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
 
     
     return cell;

@@ -14,11 +14,11 @@
 		<string>github.com:mytcer/ios-dev-resources.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>UIKit/UITableView/ContactDemo/ContactDemo.xcodeproj</string>
+	<string>framework/UIKit/UITableView/ContactDemo/ContactDemo.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>7112B28E47F6CE13D577AFE588868D6713E3766F</key>
-		<string>../../../../..</string>
+		<string>../../../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>github.com:mytcer/ios-dev-resources.git</string>

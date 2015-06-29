@@ -14,7 +14,7 @@
 		D37F67D91A58E97200599AEF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D37F67D81A58E97200599AEF /* Images.xcassets */; };
 		D37F67DC1A58E97200599AEF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D37F67DA1A58E97200599AEF /* LaunchScreen.xib */; };
 		D37F67E81A58E97200599AEF /* UITableViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D37F67E71A58E97200599AEF /* UITableViewDemoTests.m */; };
-		D37F67F31A592C2400599AEF /* 50x50.png in Resources */ = {isa = PBXBuildFile; fileRef = D37F67F21A592C2400599AEF /* 50x50.png */; };
+		D399BD731B155A580025CB2A /* select@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D399BD721B155A580025CB2A /* select@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +41,7 @@
 		D37F67E11A58E97200599AEF /* UITableViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITableViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D37F67E61A58E97200599AEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D37F67E71A58E97200599AEF /* UITableViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewDemoTests.m; sourceTree = "<group>"; };
-		D37F67F21A592C2400599AEF /* 50x50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 50x50.png; path = ../../../../../Downloads/50x50.png; sourceTree = "<group>"; };
+		D399BD721B155A580025CB2A /* select@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "select@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,7 +125,7 @@
 		D37F67F11A592C1000599AEF /* resource */ = {
 			isa = PBXGroup;
 			children = (
-				D37F67F21A592C2400599AEF /* 50x50.png */,
+				D399BD721B155A580025CB2A /* select@2x.png */,
 			);
 			name = resource;
 			sourceTree = "<group>";
@@ -212,7 +212,7 @@
 			files = (
 				D37F67D71A58E97200599AEF /* Main.storyboard in Resources */,
 				D37F67DC1A58E97200599AEF /* LaunchScreen.xib in Resources */,
-				D37F67F31A592C2400599AEF /* 50x50.png in Resources */,
+				D399BD731B155A580025CB2A /* select@2x.png in Resources */,
 				D37F67D91A58E97200599AEF /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,6 +424,7 @@
 				D37F67ED1A58E97200599AEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D37F67EE1A58E97200599AEF /* Build configuration list for PBXNativeTarget "UITableViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -432,6 +433,7 @@
 				D37F67F01A58E97200599AEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

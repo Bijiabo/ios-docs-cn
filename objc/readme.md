@@ -318,4 +318,7 @@
 * [Objective-C分类(category)和扩展(Extension)](http://blog.csdn.net/yhawaii/article/details/6992094)
 * [Objective-C中的instancetype和id关键字](http://blog.csdn.net/wzzvictory/article/details/16994913)
 * [#ifndef到底什么意思？](http://blog.csdn.net/thimin/article/details/1539960)
+* [Objective-C开发编码规范](http://ios.jobbole.com/81932/)
+* [枚举的正确使用](http://tutuge.me/2015/03/21/effective-objective-c-5-enum/)
+* [weakself的几种写法](http://www.tuicool.com/articles/bYBB7r)
 		

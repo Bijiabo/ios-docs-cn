@@ -176,11 +176,24 @@
 * [ZBarSDK](https://github.com/bmorton/ZBarSDK) -- 二维码扫描
 * [ObjQREncoder](https://github.com/jverkoey/ObjQREncoder) -- 二维码生成
 * [KINWebBrowser](https://github.com/dfmuir/KINWebBrowser) -- 同时兼容WKWebView和UIWebView
-* [iOS-Slide-Menu](https://github.com/aryaxt/iOS-Slide-Menu) -- ios侧滑菜单
+* [MMDrawerController](https://github.com/mutualmobile/MMDrawerController) -- 侧边抽屉导航
 * [Reachability](https://github.com/tonymillion/Reachability) -- 检测iOS设备网络环境的库（目标网络是否可用、网络的连接方式及连接方式的变更）
 * [PushSharp](https://github.com/Redth/PushSharp) -- 用来给APNS发送消息的库
 * [Masonry](https://github.com/Masonry/Masonry) -- 自动布局
 * [ios-charts](https://github.com/danielgindi/ios-charts)
+* [MJRefresh](https://github.com/CoderMJLee/MJRefresh) -- 下拉上拉刷新
+* [SWTableViewCell](https://github.com/CEWendel/SWTableViewCell) -- UITableViewCell侧滑按钮
+* [PromiseKit](https://github.com/mxcl/PromiseKit) -- Promise的iOS版本
+* [FormatterKit](https://github.com/mattt/FormatterKit) -- 强大的格式化工具包
+* [CocoaLumberjack](https://github.com/CocoaLumberjack/CocoaLumberjack) -- Mac 和 iOS 的一款强大的日志框架（原生支持XcodeColors插件）
+* [100个优秀IOS开源项目](http://www.jianshu.com/p/769ce426b5db)
+* [ReactiveCocoa](https://github.com/ReactiveCocoa/ReactiveCocoa) -- 函数响应式编程框架
+* [PonyDebugger](https://github.com/square/PonyDebugger)
+* [PonyDebugger使用详细说明](http://shiningio.com/2014/03/20/debug-ios-app-with-pony-debugger/)
+* [Mantle](https://github.com/Mantle/Mantle) -- 数据建模框架
+* [JSONModel](https://github.com/icanzilb/JSONModel) -- JSON转模型框架
+* [MJExtension](https://github.com/CoderMJLee/MJExtension) -- 字典转模型框架
+* [nui](https://github.com/tombenner/nui) -- 通过CSS的方式来定义iOS app的样式
 
 <br>
 
@@ -192,6 +205,7 @@
 * [App Programming Guide for iOS](https://developer.apple.com/library/ios/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/Introduction/Introduction.html#//apple_ref/doc/uid/TP40007072)
 * [IOS人机界面指南（官方英文版）](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/IconMatrix.html#//apple_ref/doc/uid/TP40006556-CH27-SW1)
 * [IOS7人机界面指南（中文版，腾讯团队翻译）](http://isux.tencent.com/ios-human-interface-guidelines-ui-design-basics-ios7.html)
+* [App store最新审核标准(2015.3)](https://github.com/leecade/ios-dev-flow/blob/master/Appstore%E6%9C%80%E6%96%B0%E5%AE%A1%E6%A0%B8%E6%A0%87%E5%87%86_2015-3.md)
 * [UIView与CALayer的区别](http://blog.csdn.net/weiwangchao_/article/details/7771538)
 * [自动布局教程(1) 中文版](http://www.cocoachina.com/industry/20131203/7462.html)
 * [自动布局教程(2) 英文版](http://www.raywenderlich.com/50319/beginning-auto-layout-tutorial-in-ios-7-part-2)
@@ -226,6 +240,18 @@
 * [解决[UIColor colorWithRed: green: blue: alpha:] 失效问题](http://blog.csdn.net/chaoyuan899/article/details/27321235)
 * [UIImagePickerController选择图片发送后旋转90度的问题](http://blog.csdn.net/mideveloper/article/details/44101267)
 * [https://github.com/vsouza/awesome-ios](https://github.com/vsouza/awesome-ios)
+* [如何使用NSCoding和NSFileManager来保存你的应用程序数据](http://www.cnblogs.com/andyque/archive/2011/09/13/2164469.html)
+* [数据持久化](http://nshipster.cn/nscoding/)
+* [Objective-C中的浅拷贝和深拷贝](http://www.cocoachina.com/ios/20141113/10213.html)
+* [IOS Table中Cell的重用reuse机制分析](http://blog.csdn.net/omegayy/article/details/7356823)
+* [基础集合类](http://www.cocoachina.com/ios/20140122/7735.html)
+* [iOS如何实现表格的折叠效果?](http://blog.csdn.net/youcanping2008/article/details/9202167)
+* [如何解决sizeWithAttributes获取的字符串尺寸偏小的问题](http://stackoverflow.com/questions/18897896/replacement-for-deprecated-sizewithfont-in-ios-7)
+* [开源项目汇总](https://github.com/Tim9Liu9/TimLiu-iOS)
+* [MVVM 介绍](http://objccn.io/issue-13-1/)
+* [几种通信方式的区别](http://www.objc.io/issues/7-foundation/communication-patterns/)
+* [ReactiveCocoa指南一：信号](http://southpeak.github.io/blog/2014/08/02/reactivecocoazhi-nan-%5B%3F%5D-:xin-hao/)
+* [ReactiveCocoa2实战](http://www.cocoachina.com/industry/20140609/8737.html)
 
 <br>
 
@@ -240,3 +266,4 @@
 ***
 
 * [生成appstore审核截图](https://appscreens.io/yK7cLuBNij)
+* [cocoa controls](https://www.cocoacontrols.com/) -- 可以收集你的组件被哪用于哪些应用
