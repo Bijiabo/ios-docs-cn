@@ -252,6 +252,9 @@
 * [几种通信方式的区别](http://www.objc.io/issues/7-foundation/communication-patterns/)
 * [ReactiveCocoa指南一：信号](http://southpeak.github.io/blog/2014/08/02/reactivecocoazhi-nan-%5B%3F%5D-:xin-hao/)
 * [ReactiveCocoa2实战](http://www.cocoachina.com/industry/20140609/8737.html)
+* [在iOS开发中调用icon font字体的代码](http://www.weste.net/2013/12-13/94694.html)
+* [iOS的基本的设计模式](http://blog.csdn.net/totogo2010/article/details/8028180)
+* [iOS应用程序生命周期详解](http://blog.csdn.net/totogo2010/article/details/8048652)
 
 <br>
 
