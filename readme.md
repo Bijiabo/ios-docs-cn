@@ -255,6 +255,7 @@
 * [在iOS开发中调用icon font字体的代码](http://www.weste.net/2013/12-13/94694.html)
 * [iOS的基本的设计模式](http://blog.csdn.net/totogo2010/article/details/8028180)
 * [iOS应用程序生命周期详解](http://blog.csdn.net/totogo2010/article/details/8048652)
+* [IOS 内存警告 Memory warning level](http://www.cnblogs.com/smileEvday/archive/2012/03/07/MemoryWarning.html)
 
 <br>
 

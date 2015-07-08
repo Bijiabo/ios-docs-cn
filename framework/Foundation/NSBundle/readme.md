@@ -136,10 +136,119 @@
 
 	作用：获取bundle中包含资源文件的子目录的完整路径。
 
+	例子：`/Users/xidanjueying/Library/Developer/CoreSimulator/Devices/57926028-2FCE-47F1-BDE8-C9E3371E2E60/data/Containers/Bundle/Application/C4B23F67-1419-4E63-B2C4-44E255D17D8D/UtilsDemo.app`
+
 
 ### @property(readonly, copy) NSURL *appStoreReceiptURL
 
 	作用：包的应用商店收据文件的url。
+
+
+### @property(readonly, copy) NSURL *bundleURL
+
+	作用：目标bundle目录的完整url。
+
+	例子：`file:///Users/xidanjueying/Library/Developer/CoreSimulator/Devices/57926028-2FCE-47F1-BDE8-C9E3371E2E60/data/Containers/Bundle/Application/62FCEAD8-3EE5-45AA-8E32-C417E5998916/UtilsDemo.app/`
+
+
+### @property(readonly, copy) NSString *bundlePath
+
+	作用：目标bundle目录的完整路径。
+
+	例子：`/Users/xidanjueying/Library/Developer/CoreSimulator/Devices/57926028-2FCE-47F1-BDE8-C9E3371E2E60/data/Containers/Bundle/Application/9A62F48C-C0EA-40AD-95F9-871D6FD810EE/UtilsDemo.app`
+
+
+### @property(readonly, copy) NSString *bundleIdentifier
+
+	作用：目标bundle的标识符，如：`com.xidanjueying.UtilsDemo`
+
+
+### @property(readonly, copy) NSDictionary *infoDictionary
+
+	作用：由目标bundle的Info.plist文件生成的字典。
+
+
+### - (id)objectForInfoDictionaryKey:(NSString *)key
+
+	作用：从目标bundle的Info.plist文件中，获取指定key的value。
+
+
+### @property(readonly, copy) NSURL *builtInPlugInsURL
+
+	作用：获取bundle中插件所在子目录的url。
+
+
+### @property(readonly, copy) NSString *builtInPlugInsPath
+
+	作用：获取bundle中插件所在子目录的完整路径。
+
+
+### @property(readonly, copy) NSURL *executableURL
+
+	作用：bundle中可执行文件的url。
+
+	例子：`file:///Users/xidanjueying/Library/Developer/CoreSimulator/Devices/57926028-2FCE-47F1-BDE8-C9E3371E2E60/data/Containers/Bundle/Application/77F992C5-B1A7-4034-929D-4B1D568C1430/UtilsDemo.app/UtilsDemo`
+
+
+### @property(readonly, copy) NSString *executablePath
+
+	作用：bundle中可执行文件的完整路径。
+
+	例子：`/Users/xidanjueying/Library/Developer/CoreSimulator/Devices/57926028-2FCE-47F1-BDE8-C9E3371E2E60/data/Containers/Bundle/Application/F8EE6869-BD80-4274-B3FA-4E0390BCEA7B/UtilsDemo.app/UtilsDemo`
+
+
+### - (NSURL *)URLForAuxiliaryExecutable:(NSString *)executableName
+
+	作用：返回bundle中指定名称的可执行文件的url。
+
+
+### - (NSString *)pathForAuxiliaryExecutable:(NSString *)executableName
+
+	作用：返回bundle中指定名称的可执行文件的完整路径。
+
+
+### @property(readonly, copy) NSURL *privateFrameworksURL
+
+	作用：返回bundle中私有框架所在子目录的url。
+
+
+### @property(readonly, copy) NSURL *privateFrameworksPath
+
+	作用：返回bundle中私有框架所在子目录的完整路径。
+
+
+### @property(readonly, copy) NSURL *sharedFrameworksURL
+
+	作用：返回bundle中共享框架所在子目录的url。
+
+	例子：`SharedFrameworks/ -- file:///Users/xidanjueying/Library/Developer/CoreSimulator/Devices/57926028-2FCE-47F1-BDE8-C9E3371E2E60/data/Containers/Bundle/Application/B7A763DD-4876-4F2A-B9F0-54A2C19515B3/UtilsDemo.app/`
+
+
+### @property(readonly, copy) NSString *sharedFrameworksPath
+
+	作用：返回bundle中共享框架所在子目录的完整路径。
+
+	例子：`/Users/xidanjueying/Library/Developer/CoreSimulator/Devices/57926028-2FCE-47F1-BDE8-C9E3371E2E60/data/Containers/Bundle/Application/03D01E1D-E313-4D93-BA84-0BE33DDFFDF6/UtilsDemo.app/SharedFrameworks`
+
+
+### @property(readonly, copy) NSURL *sharedSupportURL
+
+	作用：返回bundle中共享支持文件所在子目录的url。
+
+	例子：`SharedSupport/ -- file:///Users/xidanjueying/Library/Developer/CoreSimulator/Devices/57926028-2FCE-47F1-BDE8-C9E3371E2E60/data/Containers/Bundle/Application/8F1AD587-B8B0-454B-BE2D-C59C41A33DAD/UtilsDemo.app/`
+
+### @property(readonly, copy) NSString *sharedSupportPath
+
+	作用：返回bundle中共享支持文件所在子目录的完整路径。
+
+	例子：`/Users/xidanjueying/Library/Developer/CoreSimulator/Devices/57926028-2FCE-47F1-BDE8-C9E3371E2E60/data/Containers/Bundle/Application/A36309F8-7B0D-4FB6-ADD9-62263D5BC065/UtilsDemo.app/SharedSupport`
+
+
+### @property(readonly, copy) NSURL *resourceURL
+
+	作用：返回bundle中资源文件所在子目录的url。
+
+	例子：`file:///Users/xidanjueying/Library/Developer/CoreSimulator/Devices/57926028-2FCE-47F1-BDE8-C9E3371E2E60/data/Containers/Bundle/Application/55A6B2F4-0D4E-40F2-BC5E-D6F824FDDD3C/UtilsDemo.app/`
 
 
 <br>
