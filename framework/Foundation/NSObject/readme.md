@@ -114,9 +114,16 @@
 
 ### - (IMP)methodForSelector:(SEL)aSelector
 
-	作用：获取aSelector对应的方法实现的地址。
+	作用：获取aSelector对应的方法实现的地址（是一个函数指针）。
 
-	备注：如果接收者是一个对象，则aSelector应该是一个实例方法；如果接收者是一个类，则aSelector应该是一个类方法。
+	备注：
+
+		* 如果接收者是一个对象，则aSelector应该是一个实例方法；如果接收者是一个类，则aSelector应该是一个类方法。
+
+		* 当需要在一个循环内频繁调用同一个方法时，可以通过该方法取得目标方法的实现地址，然后通过该地址来直接调用方法实现，
+		  从而避开动态绑定的过程，提高程序的性能。
+
+		* methodForSelector:是Cocoa运行时提供的，它不是Objective-C语言的特性。
 
 
 ### + (IMP)instanceMethodForSelector:(SEL)aSelector
@@ -191,7 +198,7 @@
 
 ### - forwardingTargetForSelector:
 
-	作用：如果一个对象实现了这个方法，并返回一个非空的对象且非对象本身，则这个被返回的对象成为消息的新接收者。
+	作用：如果一个对象实现了这个方法，并返回一个非nil的对象且该对象不是self自身（否则会出现无限循环），则该对象成为消息的新接收者。
 
 
 ### - forwardInvocation:

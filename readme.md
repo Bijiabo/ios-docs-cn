@@ -194,6 +194,7 @@
 * [JSONModel](https://github.com/icanzilb/JSONModel) -- JSON转模型框架
 * [MJExtension](https://github.com/CoderMJLee/MJExtension) -- 字典转模型框架
 * [nui](https://github.com/tombenner/nui) -- 通过CSS的方式来定义iOS app的样式
+* [GrowingTextView](https://github.com/HansPinckaers/GrowingTextView) -- 自适应内容高度的textview
 
 <br>
 
@@ -232,7 +233,6 @@
 * [Coding Guidelines for Cocoa](https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/CodingGuidelines/CodingGuidelines.html)
 * [堆和栈的区别](http://blog.csdn.net/hairetz/article/details/4141043)
 * [Core Animation编程指南](http://www.cocoachina.com/bbs/read.php?tid=84461)
-* [Blocks编程要点](http://www.cocoachina.com/bbs/read.php?tid=87593)
 * [多线程编程指南](http://www.cocoachina.com/bbs/read.php?tid=87592)
 * [关于viewWithTag的一点说明](http://blog.csdn.net/smking/article/details/8590547)
 * [判断是否有权限访问相机、相册、定位](http://blog.csdn.net/cafei111/article/details/25793145)
@@ -242,7 +242,6 @@
 * [https://github.com/vsouza/awesome-ios](https://github.com/vsouza/awesome-ios)
 * [如何使用NSCoding和NSFileManager来保存你的应用程序数据](http://www.cnblogs.com/andyque/archive/2011/09/13/2164469.html)
 * [数据持久化](http://nshipster.cn/nscoding/)
-* [Objective-C中的浅拷贝和深拷贝](http://www.cocoachina.com/ios/20141113/10213.html)
 * [IOS Table中Cell的重用reuse机制分析](http://blog.csdn.net/omegayy/article/details/7356823)
 * [基础集合类](http://www.cocoachina.com/ios/20140122/7735.html)
 * [iOS如何实现表格的折叠效果?](http://blog.csdn.net/youcanping2008/article/details/9202167)
@@ -256,6 +255,8 @@
 * [iOS的基本的设计模式](http://blog.csdn.net/totogo2010/article/details/8028180)
 * [iOS应用程序生命周期详解](http://blog.csdn.net/totogo2010/article/details/8048652)
 * [IOS 内存警告 Memory warning level](http://www.cnblogs.com/smileEvday/archive/2012/03/07/MemoryWarning.html)
+* [代码签名探析](http://objccn.io/issue-17-2/)
+* [iOS代码签名](http://www.cocoachina.com/ios/20141017/9949.html)
 
 <br>
 
@@ -271,3 +272,16 @@
 
 * [生成appstore审核截图](https://appscreens.io/yK7cLuBNij)
 * [cocoa controls](https://www.cocoacontrols.com/) -- 可以收集你的组件被哪用于哪些应用
+
+<br>
+
+### 八. 高大上技术资源
+***
+
+* [云端人脸识别API](https://rekognition.com/)
+* [讯飞开放平台](http://www.xfyun.cn/)
+* [微信语音SDK(iOS 版)上手指南](http://pr.weixin.qq.com/voice/sdkios)
+* [语音识别](http://blog.csdn.net/shenjx1225/article/details/18549409)
+* [Google，微软，科大讯飞的语音识别引擎对比](http://blog.csdn.net/yylsheng/article/details/8364487)
+* [IOS中手势密码界面的实现](http://blog.csdn.net/skylin19840101/article/details/38729757)
+* [手势解锁](http://blog.csdn.net/becomedragonlong/article/details/43704017)
