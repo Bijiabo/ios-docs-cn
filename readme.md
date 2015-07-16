@@ -195,6 +195,9 @@
 * [MJExtension](https://github.com/CoderMJLee/MJExtension) -- 字典转模型框架
 * [nui](https://github.com/tombenner/nui) -- 通过CSS的方式来定义iOS app的样式
 * [GrowingTextView](https://github.com/HansPinckaers/GrowingTextView) -- 自适应内容高度的textview
+* [FMDB](https://github.com/ccgus/fmdb) -- 对SQLite的包装，让使用SQLite更方便
+	* [FMDB官方使用文档中文版](http://www.cocoachina.com/industry/20130819/6821.html)
+* [MagicalRecord](https://github.com/magicalpanda/MagicalRecord) -- 让使用Cora Data更方便
 
 <br>
 
@@ -241,7 +244,6 @@
 * [UIImagePickerController选择图片发送后旋转90度的问题](http://blog.csdn.net/mideveloper/article/details/44101267)
 * [https://github.com/vsouza/awesome-ios](https://github.com/vsouza/awesome-ios)
 * [如何使用NSCoding和NSFileManager来保存你的应用程序数据](http://www.cnblogs.com/andyque/archive/2011/09/13/2164469.html)
-* [数据持久化](http://nshipster.cn/nscoding/)
 * [IOS Table中Cell的重用reuse机制分析](http://blog.csdn.net/omegayy/article/details/7356823)
 * [基础集合类](http://www.cocoachina.com/ios/20140122/7735.html)
 * [iOS如何实现表格的折叠效果?](http://blog.csdn.net/youcanping2008/article/details/9202167)
@@ -257,6 +259,9 @@
 * [IOS 内存警告 Memory warning level](http://www.cnblogs.com/smileEvday/archive/2012/03/07/MemoryWarning.html)
 * [代码签名探析](http://objccn.io/issue-17-2/)
 * [iOS代码签名](http://www.cocoachina.com/ios/20141017/9949.html)
+* [NSCoding / NSKeyed​Archiver](http://nshipster.cn/nscoding/)
+* [iOS中常用的四种数据持久化方法简介](http://www.cocoachina.com/industry/20130328/5908.html)
+* [iOS中几种数据持久化方案](http://www.jianshu.com/p/7616cbd72845)
 
 <br>
 
