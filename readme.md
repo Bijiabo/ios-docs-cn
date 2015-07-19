@@ -262,6 +262,7 @@
 * [NSCoding / NSKeyed​Archiver](http://nshipster.cn/nscoding/)
 * [iOS中常用的四种数据持久化方法简介](http://www.cocoachina.com/industry/20130328/5908.html)
 * [iOS中几种数据持久化方案](http://www.jianshu.com/p/7616cbd72845)
+* [iOS中集合遍历方法的比较和技巧](http://www.cocoachina.com/industry/20140531/8630.html)
 
 <br>
 

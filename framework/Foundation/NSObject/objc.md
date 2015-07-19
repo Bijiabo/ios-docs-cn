@@ -282,3 +282,4 @@
 ***
 
 * [NSObject](http://www.cocoachina.com/ios/20150205/11113.html)
+* [继承自NSObject的不常用又很有用的函数](http://www.cocoachina.com/industry/20140604/8671.html)
