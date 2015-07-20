@@ -198,6 +198,7 @@
 * [FMDB](https://github.com/ccgus/fmdb) -- 对SQLite的包装，让使用SQLite更方便
 	* [FMDB官方使用文档中文版](http://www.cocoachina.com/industry/20130819/6821.html)
 * [MagicalRecord](https://github.com/magicalpanda/MagicalRecord) -- 让使用Cora Data更方便
+* [RegexKitLite](https://github.com/wezm/RegexKitLite) -- 正则表达式库
 
 <br>
 
@@ -263,6 +264,7 @@
 * [iOS中常用的四种数据持久化方法简介](http://www.cocoachina.com/industry/20130328/5908.html)
 * [iOS中几种数据持久化方案](http://www.jianshu.com/p/7616cbd72845)
 * [iOS中集合遍历方法的比较和技巧](http://www.cocoachina.com/industry/20140531/8630.html)
+* [iOS 8.0+如何在应用中唤起系统设置界面](http://itony.me/875.html)
 
 <br>
 
