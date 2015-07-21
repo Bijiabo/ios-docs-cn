@@ -199,6 +199,7 @@
 	* [FMDB官方使用文档中文版](http://www.cocoachina.com/industry/20130819/6821.html)
 * [MagicalRecord](https://github.com/magicalpanda/MagicalRecord) -- 让使用Cora Data更方便
 * [RegexKitLite](https://github.com/wezm/RegexKitLite) -- 正则表达式库
+* [iOS图表库](https://github.com/sxyx2008/awesome-ios-chart)
 
 <br>
 
