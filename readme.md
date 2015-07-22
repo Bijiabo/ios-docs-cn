@@ -1,8 +1,6 @@
 # ios-dev-resources
-***
 
 ## 一. 编程语言
-***
 
 * [Objective-C](oc.md)
 * Swift
@@ -10,7 +8,6 @@
 <br>
 
 ## 二. 官方框架
-***
 
 * UI框架
 
@@ -46,7 +43,6 @@
 <br>
 
 ## 三. 常用的第三方库
-***
 
 * [MBProgressHUD](https://github.com/jdg/MBProgressHUD) -- 进度指示器（如常见的“加载中...”）
 * [AFNetworking](https://github.com/AFNetworking/AFNetworking) -- 处理网络请求
@@ -83,7 +79,6 @@
 <br>
 
 ## 四. 参考资料
-***
 
 * [IOS开发教程（官方中文版）](https://developer.apple.com/LIBRARY/ios/referencelibrary/GettingStarted/RoadMapiOSCh/FirstTutorial.html#//apple_ref/doc/uid/TP40012668-CH3-SW1)
 * [IOS开发官方示例代码](https://developer.apple.com/library/ios/navigation/#section=Resource%20Types&topic=Sample%20Code)
@@ -161,7 +156,6 @@
 <br>
 
 ## 六. 工具
-***
 
 * [生成appstore审核截图](https://appscreens.io/yK7cLuBNij)
 * [cocoa controls](https://www.cocoacontrols.com/) -- 可以收集你的组件被哪用于哪些应用
@@ -169,7 +163,6 @@
 <br>
 
 ## 七. 人脸 & 语音识别
-***
 
 * [云端人脸识别API](https://rekognition.com/)
 * [讯飞开放平台](http://www.xfyun.cn/)
