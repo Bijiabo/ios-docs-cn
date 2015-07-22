@@ -1,14 +1,7 @@
 # ios-dev-resources
 ***
 
-### 一. IOS应用开发知识体系
-***
-
-![IOS应用开发知识体系](resources/IOS应用开发知识体系.png)
-
-<br>
-
-### 二. 编程语言
+## 一. 编程语言
 ***
 
 * [Objective-C](oc.md)
@@ -16,161 +9,48 @@
 
 <br>
 
-### 三. 常用框架
+## 二. 官方框架
 ***
 
-#### **1. UIKit**
+* UI框架
 
-> 注：从 IOS 7.0 开始被废弃的类，不会整理在这里。
+	* [UIKit](./framework/UIKit)
 
-* [UIButton](UIKit/UIButton/readme.md) -- 按钮
+* 蓝牙框架
 
-* [UISlider](UIKit/UISlider/readme.md) -- 滑块
+	* GameKit
+	* MultipeerConnectivity
+	* CoreBluetooth
 
-* [UISwitch](UIKit/UISwitch/readme.md) -- 切换
+* 社交分享
 
-* [UIDatePicker](UIKit/UIDatePicker/readme.md) -- 日期选择
+	* [Social](http://www.cnblogs.com/kenshincui/p/4220402.html#social)
 
-* [UIPageControl](UIKit/UIPageControl/readme.md) -- 分页
+* Assets Library
 
-* [UIRefreshControl](UIKit/UIRefreshControl/readme.md) -- 下拉刷新
+	* [AssetsLibrary](https://developer.apple.com/library/ios/documentation/AssetsLibrary/Reference/AssetsLibraryFramework/index.html)
+	* [Photos](https://developer.apple.com/library/ios/documentation/Photos/Reference/Photos_Framework/index.html#//apple_ref/doc/uid/TP40014408) 【IOS8开始可用】
 
-* [UISegmentedControl](UIKit/UISegmentedControl/readme.md) -- 类似PC端的tabbar
+* 通讯录
 
-* [UIStepper](UIKit/UIStepper/readme.md) -- 增减器
+	* [AddressBook](http://www.cnblogs.com/kenshincui/p/4220402.html#contact)
 
-* [UITextField](UIKit/UITextField/readme.md) -- 文本输入框
+* 地理定位
 
-* [UIAccessibilityElement](UIKit/UIAccessibilityElement/readme.md) -- 让 APP 支持无障碍
+	* CoreLocation
 
-* [UINavigationController](UIKit/UINavigationController/readme.md) -- 导航控制器
+* 地图
 
-* [UINavigationBar](UIKit/UINavigationBar/readme.md) -- 导航条
-
-* [UINavigationItem](UIKit/UINavigationItem/readme.md) -- 导航项，管理显示在导航条上的按钮和视图
-
-* [UITabBarController](UIKit/UITabBarController/readme.md) -- tabbar控制器
-
-* [UITabBar](UIKit/UITabBar/readme.md) -- tabbar
-
-* [UITabBarItem](UIKit/UITabBar/readme.md) -- 显示在tabbar上的视图项
-
-* [UIBarButtonItem](UIKit/UIBarButtonItem/readme.md) -- 显示在导航条和工具条上的按钮
-
-* [UIPopoverController](UIKit/UIPopoverController/readme.md) -- 弹出层控制器
-
-* [UIMenuController](UIKit/IMenuController/readme.md) -- 菜单控制器
-
-* [UIMenuItem](UIKit/UIMenuItem/readme.md) -- 菜单项
-
-* [UIPickerView](UIKit/UIPickerView/readme.md) -- 滚轮选择器
-
-* [UIGestureRecognizer](UIKit/UIGestureRecognizer/readme.md) -- 手势基础类
-
-* UILongPressGestureRecognizer -- 长按
-
-* UIPanGestureRecognizer -- 拖移
-
-* UIPinchGestureRecognizer -- 二指往內或往外拨动
-
-* UIRotationGestureRecognizer -- 旋转
-
-* UISwipeGestureRecognizer -- 滑动
-
-* UITapGestureRecognizer -- 点一下
-
-* [UIWindow](UIKit/UIWindow/readme.md) -- 窗口对象
-
-* [UIAlterView](UIKit/UIAlertView/readme.md) -- alert对话框
-
-* [UIActionSheet](UIKit/UIActionSheet/readme.md) -- 动作表
-
-* [UILocalNotification](UIKit/UILocalNotification/readme.md) -- 本地通知
-
-* [UILabel](UIKit/UILabel/readme.md) -- 显示只读文本
-
-* [UIImage](UIKit/UIImage/readme.md) -- 载入图像数据
-
-* [UIImageView](UIKit/UIImageView/readme.md) -- 显示图像
-
-* [UIImagePickerController](UIKit/UIImagePickerController/readme.md) -- 拍照、摄像、从app中选择照片和视频
-
-* [UIProgressView](UIKit/UIProgressView/readme.md) -- 进度条
-
-* [UIScrollView](UIKit/UIScrollView/readme.md) -- 幻灯片
-
-* [UITextView](UIKit/UITextView/readme.md) -- 类似于 html 中的 textarea
-
-* [UICollectionView](UIKit/UICollectionView/readme.md) -- 以自定义布局的方式管理有序数据集合
-
-* [UITableViewController](UIKit/UITableViewController/readme.md)
-
-* [UITableView](UIKit/UITableView/readme.md) -- 表格视图
-
-* UIWebView
-
-* UIInputView
-
-* [UISearchBar](UIKit/UISearchBar/readme.md) -- 搜索条
-
-* [UISearchController](UIKit/UISearchController/readme.md) -- 搜索控制器
-
-* [UIVisualEffectView](UIKit/UIVisualEffectView/readme.md) -- 图像虚化
-
-* [UIToolbar](UIKit/UIToolbar/readme.md) -- 工具条
+	* MapKit
 
 <br>
 
-#### **2. 蓝牙框架**
-
-* GameKit
-
-* MultipeerConnectivity
-
-* CoreBluetooth
-
-<br>
-
-#### **3. 社交分享**
-
-* [Social](http://www.cnblogs.com/kenshincui/p/4220402.html#social)
-
-<br>
-
-#### **4. Assets Library**
-
-* [AssetsLibrary](https://developer.apple.com/library/ios/documentation/AssetsLibrary/Reference/AssetsLibraryFramework/index.html)
-* [Photos](https://developer.apple.com/library/ios/documentation/Photos/Reference/Photos_Framework/index.html#//apple_ref/doc/uid/TP40014408) 【IOS8开始可用】
-* [iOS相册多选照片](http://www.iphonetrain.com/blog_info/68.html)
-
-<br>
-
-#### **5. 通讯录**
-
-* [AddressBook](http://www.cnblogs.com/kenshincui/p/4220402.html#contact)
-
-<br>
-
-#### **6. 地理定位**
-
-* CoreLocation
-
-<br>
-
-#### **7. 地图**
-
-* MapKit
-
-<br>
-
-### 四. 常用的第三方库
+## 三. 常用的第三方库
 ***
 
 * [MBProgressHUD](https://github.com/jdg/MBProgressHUD) -- 进度指示器（如常见的“加载中...”）
 * [AFNetworking](https://github.com/AFNetworking/AFNetworking) -- 处理网络请求
 * [SDWebImage](https://github.com/rs/SDWebImage) -- 支持缓存的图片延迟加载
-* [EGOTableViewPullRefresh](https://github.com/enormego/EGOTableViewPullRefresh) -- 上拉刷新
-* [JSONKit](https://github.com/johnezang/JSONKit) -- json处理
 * [ISHPermissionKit](https://github.com/iosphere/ISHPermissionKit) -- 以统一的方式请求用户授权
 * [TBXML](https://github.com/71squared/TBXML) -- XML解析
 * [ZBarSDK](https://github.com/bmorton/ZBarSDK) -- 二维码扫描
@@ -180,7 +60,6 @@
 * [Reachability](https://github.com/tonymillion/Reachability) -- 检测iOS设备网络环境的库（目标网络是否可用、网络的连接方式及连接方式的变更）
 * [PushSharp](https://github.com/Redth/PushSharp) -- 用来给APNS发送消息的库
 * [Masonry](https://github.com/Masonry/Masonry) -- 自动布局
-* [ios-charts](https://github.com/danielgindi/ios-charts)
 * [MJRefresh](https://github.com/CoderMJLee/MJRefresh) -- 下拉上拉刷新
 * [SWTableViewCell](https://github.com/CEWendel/SWTableViewCell) -- UITableViewCell侧滑按钮
 * [PromiseKit](https://github.com/mxcl/PromiseKit) -- Promise的iOS版本
@@ -190,20 +69,20 @@
 * [ReactiveCocoa](https://github.com/ReactiveCocoa/ReactiveCocoa) -- 函数响应式编程框架
 * [PonyDebugger](https://github.com/square/PonyDebugger)
 * [PonyDebugger使用详细说明](http://shiningio.com/2014/03/20/debug-ios-app-with-pony-debugger/)
-* [Mantle](https://github.com/Mantle/Mantle) -- 数据建模框架
-* [JSONModel](https://github.com/icanzilb/JSONModel) -- JSON转模型框架
-* [MJExtension](https://github.com/CoderMJLee/MJExtension) -- 字典转模型框架
-* [nui](https://github.com/tombenner/nui) -- 通过CSS的方式来定义iOS app的样式
+* [Mantle](https://github.com/Mantle/Mantle) -- 数据模型框架（字典与类互转）
+* [JSONModel](https://github.com/icanzilb/JSONModel) -- 数据模型框架（字典与类互转）
+* [MJExtension](https://github.com/CoderMJLee/MJExtension) -- 数据模型框架（字典与类互转）
 * [GrowingTextView](https://github.com/HansPinckaers/GrowingTextView) -- 自适应内容高度的textview
 * [FMDB](https://github.com/ccgus/fmdb) -- 对SQLite的包装，让使用SQLite更方便
 	* [FMDB官方使用文档中文版](http://www.cocoachina.com/industry/20130819/6821.html)
 * [MagicalRecord](https://github.com/magicalpanda/MagicalRecord) -- 让使用Cora Data更方便
 * [RegexKitLite](https://github.com/wezm/RegexKitLite) -- 正则表达式库
-* [iOS图表库](https://github.com/sxyx2008/awesome-ios-chart)
+* [iOS图表库集合](https://github.com/sxyx2008/awesome-ios-chart)
+* [SIAlertView](https://github.com/Sumi-Interactive/SIAlertView) -- 可自定义的对话框库
 
 <br>
 
-### 五. 参考资料
+## 四. 参考资料
 ***
 
 * [IOS开发教程（官方中文版）](https://developer.apple.com/LIBRARY/ios/referencelibrary/GettingStarted/RoadMapiOSCh/FirstTutorial.html#//apple_ref/doc/uid/TP40012668-CH3-SW1)
@@ -265,18 +144,23 @@
 * [iOS中常用的四种数据持久化方法简介](http://www.cocoachina.com/industry/20130328/5908.html)
 * [iOS中几种数据持久化方案](http://www.jianshu.com/p/7616cbd72845)
 * [iOS中集合遍历方法的比较和技巧](http://www.cocoachina.com/industry/20140531/8630.html)
-* [iOS 8.0+如何在应用中唤起系统设置界面](http://itony.me/875.html)
+* [iOS如何在应用中唤起系统设置界面（仅支持8.0+）](http://itony.me/875.html)
+* [iOS如何在应用中跳转到系统蓝牙设置界面](http://5828666.blog.51cto.com/5818666/1600185)
+* IOS中手势密码
+	* [文章一](http://blog.csdn.net/skylin19840101/article/details/38729757)
+	* [文章二](http://blog.csdn.net/becomedragonlong/article/details/43704017)
+* [iOS照片多选](http://www.iphonetrain.com/blog_info/68.html)
 
 <br>
 
-### 六. 测试
+## 五. 测试
 
 * [OCUnit+xctool进行单元测试](http://blog.csdn.net/sqc3375177/article/details/40857313)
 * [测试框架](http://www.infoq.com/cn/articles/build-ios-continuous-integration-platform-part2)
 
 <br>
 
-### 七. 工具
+## 六. 工具
 ***
 
 * [生成appstore审核截图](https://appscreens.io/yK7cLuBNij)
@@ -284,7 +168,7 @@
 
 <br>
 
-### 八. 高大上技术资源
+## 七. 人脸 & 语音识别
 ***
 
 * [云端人脸识别API](https://rekognition.com/)
@@ -292,5 +176,3 @@
 * [微信语音SDK(iOS 版)上手指南](http://pr.weixin.qq.com/voice/sdkios)
 * [语音识别](http://blog.csdn.net/shenjx1225/article/details/18549409)
 * [Google，微软，科大讯飞的语音识别引擎对比](http://blog.csdn.net/yylsheng/article/details/8364487)
-* [IOS中手势密码界面的实现](http://blog.csdn.net/skylin19840101/article/details/38729757)
-* [手势解锁](http://blog.csdn.net/becomedragonlong/article/details/43704017)
