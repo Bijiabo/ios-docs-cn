@@ -1,0 +1,5 @@
+# NSKeyValueObserving
+
+简介：NSKeyValueObserving(KVO)非正式协议定义了一个机制，该机制允许对象监听到其他对象指定属性的改变。
+
+备注：NSObject提供了一个NSKeyValueObserving协议的实现：能自动观察所有对象，你可以禁用自动通知，通过使用这个协议中的方法实施手动通知。
