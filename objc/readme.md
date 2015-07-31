@@ -43,6 +43,7 @@
 	说明：它表示在程序的整个运行过程中，xx指针的值不会发生变化。
 	
 	例子：const *xx
+
 	
 **extern**
 
@@ -55,6 +56,7 @@
 		
 		// xx.m（另一个文件）
 		NSString const *xx = @"haha";
+
 		
 **typedef**
 
@@ -65,6 +67,13 @@
 	例子：typedef int UINT;
 		 UINT a = 1;
 		
+
+**@encode(cType)**
+
+	说明：它可以返回该类型的C字符串（char *）表示。
+
+	参考：http://blog.csdn.net/yhawaii/article/details/8222973
+
 <br>
 
 ### 变量作用域
@@ -322,6 +331,7 @@
 * [枚举的正确使用](http://tutuge.me/2015/03/21/effective-objective-c-5-enum/)
 * [weakself的几种写法](http://www.tuicool.com/articles/bYBB7r)
 * [深入浅出Cocoa之消息](http://www.cnblogs.com/kesalin/archive/2011/08/15/objc_method_base.html)
+* [Objective-C Runtime](http://tech.glowing.com/cn/objective-c-runtime/)
 * [Objective-C 消息转发](http://blog.csdn.net/c395565746c/article/details/8507008)
 * [Objective-C Runtime 运行时之一：类与对象](http://southpeak.github.io/blog/2014/10/25/objective-c-runtime-yun-xing-shi-zhi-lei-yu-dui-xiang/)
 * [Objective-C Runtime 运行时之二：成员变量与属性](http://southpeak.github.io/blog/2014/10/30/objective-c-runtime-yun-xing-shi-zhi-er-:cheng-yuan-bian-liang-yu-shu-xing/)

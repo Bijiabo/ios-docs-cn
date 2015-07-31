@@ -77,6 +77,7 @@
 * [RegexKitLite](https://github.com/wezm/RegexKitLite) -- 正则表达式库
 * [iOS图表库集合](https://github.com/sxyx2008/awesome-ios-chart)
 * [SIAlertView](https://github.com/Sumi-Interactive/SIAlertView) -- 可自定义的对话框库
+* [Aspects](https://github.com/steipete/Aspects) -- AOP编程库
 
 <br>
 
@@ -147,6 +148,10 @@
 	* [文章一](http://blog.csdn.net/skylin19840101/article/details/38729757)
 	* [文章二](http://blog.csdn.net/becomedragonlong/article/details/43704017)
 * [iOS照片多选](http://www.iphonetrain.com/blog_info/68.html)
+* [应用进入后台后再回到前台，动画会消失的原因及其解决办法](http://www.cnblogs.com/YouXianMing/p/3670846.html)
+* [如何正确移除CALayer的sublayers](http://stackoverflow.com/questions/2067578/removing-all-calayers-sublayers)
+* [使用Base64编解码NSData和NSString对象](http://itony.me/488.html)
+* [Method Swizzling 和 AOP 实践](http://tech.glowing.com/cn/method-swizzling-aop/)
 
 <br>
 

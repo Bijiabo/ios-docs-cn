@@ -1,0 +1,3 @@
+# NSRegularExpression
+
+简介：`NSRegularExpression`类用于表示和应用正则表达式到Unicode字符串。该类的实例是一个编译的正则表达式模式和各种选项标志的不可变表示。
