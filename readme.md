@@ -89,6 +89,7 @@
 * [IOS人机界面指南（官方英文版）](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/IconMatrix.html#//apple_ref/doc/uid/TP40006556-CH27-SW1)
 * [IOS7人机界面指南（中文版，腾讯团队翻译）](http://isux.tencent.com/ios-human-interface-guidelines-ui-design-basics-ios7.html)
 * [App store最新审核标准(2015.3)](https://github.com/leecade/ios-dev-flow/blob/master/Appstore%E6%9C%80%E6%96%B0%E5%AE%A1%E6%A0%B8%E6%A0%87%E5%87%86_2015-3.md)
+* [xcode APP 打包以及提交apple审核详细流程](http://blog.csdn.net/mad1989/article/details/8167529)
 * [UIView与CALayer的区别](http://blog.csdn.net/weiwangchao_/article/details/7771538)
 * [自动布局教程(1) 中文版](http://www.cocoachina.com/industry/20131203/7462.html)
 * [自动布局教程(2) 英文版](http://www.raywenderlich.com/50319/beginning-auto-layout-tutorial-in-ios-7-part-2)
@@ -123,7 +124,7 @@
 * [UIImagePickerController选择图片发送后旋转90度的问题](http://blog.csdn.net/mideveloper/article/details/44101267)
 * [https://github.com/vsouza/awesome-ios](https://github.com/vsouza/awesome-ios)
 * [如何使用NSCoding和NSFileManager来保存你的应用程序数据](http://www.cnblogs.com/andyque/archive/2011/09/13/2164469.html)
-* [IOS Table中Cell的重用reuse机制分析](http://blog.csdn.net/omegayy/article/details/7356823)
+* [iOS UITableViewCell的重用机制分析](http://blog.csdn.net/omegayy/article/details/7356823)
 * [基础集合类](http://www.cocoachina.com/ios/20140122/7735.html)
 * [iOS如何实现表格的折叠效果?](http://blog.csdn.net/youcanping2008/article/details/9202167)
 * [如何解决sizeWithAttributes获取的字符串尺寸偏小的问题](http://stackoverflow.com/questions/18897896/replacement-for-deprecated-sizewithfont-in-ios-7)
@@ -135,8 +136,8 @@
 * [在iOS开发中调用icon font字体的代码](http://www.weste.net/2013/12-13/94694.html)
 * [iOS的基本的设计模式](http://blog.csdn.net/totogo2010/article/details/8028180)
 * [iOS应用程序生命周期详解](http://blog.csdn.net/totogo2010/article/details/8048652)
-* [IOS 内存警告 Memory warning level](http://www.cnblogs.com/smileEvday/archive/2012/03/07/MemoryWarning.html)
-* [代码签名探析](http://objccn.io/issue-17-2/)
+* [iOS内存警告分级](http://www.cnblogs.com/smileEvday/archive/2012/03/07/MemoryWarning.html)
+* [iOS代码签名探析](http://objccn.io/issue-17-2/)
 * [iOS代码签名](http://www.cocoachina.com/ios/20141017/9949.html)
 * [NSCoding / NSKeyed​Archiver](http://nshipster.cn/nscoding/)
 * [iOS中常用的四种数据持久化方法简介](http://www.cocoachina.com/industry/20130328/5908.html)
@@ -152,6 +153,7 @@
 * [如何正确移除CALayer的sublayers](http://stackoverflow.com/questions/2067578/removing-all-calayers-sublayers)
 * [使用Base64编解码NSData和NSString对象](http://itony.me/488.html)
 * [Method Swizzling 和 AOP 实践](http://tech.glowing.com/cn/method-swizzling-aop/)
+* [符号化iOS Crash文件的3种方法](http://wufawei.com/2014/03/symbolicating-ios-crash-logs/)
 
 <br>
 
