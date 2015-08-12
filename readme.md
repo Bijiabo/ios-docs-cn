@@ -126,9 +126,16 @@
 * 集合类
 	* [基础集合类](http://www.cocoachina.com/ios/20140122/7735.html)
 	* [iOS中集合遍历方法的比较和技巧](http://www.cocoachina.com/industry/20140531/8630.html)
+* 设计模式
+	* [MVVM 介绍](http://objccn.io/issue-13-1/)
+	* [iOS的基本的设计模式](http://blog.csdn.net/totogo2010/article/details/8028180)
+	* [Method Swizzling和AOP实践](http://tech.glowing.com/cn/method-swizzling-aop/)
 * 如何实现手势密码
 	* [文章一](http://blog.csdn.net/skylin19840101/article/details/38729757)
 	* [文章二](http://blog.csdn.net/becomedragonlong/article/details/43704017)
+* 第三方资料库
+	* [https://github.com/vsouza/awesome-ios](https://github.com/vsouza/awesome-ios)
+	* [开源项目汇总](https://github.com/Tim9Liu9/TimLiu-iOS)
 * [UIView与CALayer的区别](http://blog.csdn.net/weiwangchao_/article/details/7771538)
 * [自动布局教程(1) 中文版](http://www.cocoachina.com/industry/20131203/7462.html)
 * [iOS开发上手教程（官方中文版）](https://developer.apple.com/LIBRARY/ios/referencelibrary/GettingStarted/RoadMapiOSCh/FirstTutorial.html#//apple_ref/doc/uid/TP40012668-CH3-SW1)
@@ -145,30 +152,18 @@
 * [push vc时如何隐藏tabbar之hidesBottomBarWhenPushed的使用](http://www.isaced.com/post-223.html)
 * [解决[UIColor colorWithRed: green: blue: alpha:] 失效问题](http://blog.csdn.net/chaoyuan899/article/details/27321235)
 * [UIImagePickerController选择图片发送后旋转90度的问题](http://blog.csdn.net/mideveloper/article/details/44101267)
-* [https://github.com/vsouza/awesome-ios](https://github.com/vsouza/awesome-ios)
-
 * [iOS UITableViewCell的重用机制分析](http://blog.csdn.net/omegayy/article/details/7356823)
-
 * [iOS如何实现表格的折叠效果?](http://blog.csdn.net/youcanping2008/article/details/9202167)
 * [如何解决sizeWithAttributes获取的字符串尺寸偏小的问题](http://stackoverflow.com/questions/18897896/replacement-for-deprecated-sizewithfont-in-ios-7)
-* [开源项目汇总](https://github.com/Tim9Liu9/TimLiu-iOS)
-* [MVVM 介绍](http://objccn.io/issue-13-1/)
-
 * [在iOS开发中调用icon font字体的代码](http://www.weste.net/2013/12-13/94694.html)
-* [iOS的基本的设计模式](http://blog.csdn.net/totogo2010/article/details/8028180)
 * [iOS应用程序生命周期详解](http://blog.csdn.net/totogo2010/article/details/8048652)
 * [iOS内存警告分级](http://www.cnblogs.com/smileEvday/archive/2012/03/07/MemoryWarning.html)
-
-
-
 * [iOS如何在应用中唤起系统设置界面（仅支持8.0+）](http://itony.me/875.html)
 * [iOS如何在应用中跳转到系统蓝牙设置界面](http://5828666.blog.51cto.com/5818666/1600185)
-
 * [iOS照片多选](http://www.iphonetrain.com/blog_info/68.html)
 * [应用进入后台后再回到前台，动画会消失的原因及其解决办法](http://www.cnblogs.com/YouXianMing/p/3670846.html)
 * [如何正确移除CALayer的sublayers](http://stackoverflow.com/questions/2067578/removing-all-calayers-sublayers)
 * [使用Base64编解码NSData和NSString对象](http://itony.me/488.html)
-* [Method Swizzling 和 AOP 实践](http://tech.glowing.com/cn/method-swizzling-aop/)
 * [如何实现导航控制器全屏滑动返回效果](http://www.cocoachina.com/ios/20150811/12897.html)
 
 <br>
