@@ -88,12 +88,13 @@
 
 ## 四. 参考资料
 
-* App打包&发布
+* App构建&发布相关
 	* [App store最新审核标准(2015.3)](https://github.com/leecade/ios-dev-flow/blob/master/Appstore%E6%9C%80%E6%96%B0%E5%AE%A1%E6%A0%B8%E6%A0%87%E5%87%86_2015-3.md)
 	* [Xcode APP 打包以及提交apple审核详细流程](http://blog.csdn.net/mad1989/article/details/8167529)
 	* [Xcode应用程序构建阶段（Build Phases）分析（1）](http://www.entlib.net/?p=1645)
 	* [Xcode应用程序构建阶段（Build Phases）分析（2）](http://www.entlib.net/?p=1654)
-* 开发者证书
+	* [iOS代码签名探析](http://objccn.io/issue-17-2/)
+	* [iOS代码签名](http://www.cocoachina.com/ios/20141017/9949.html)
 	* [苹果开发者账号那些事儿（一）账号类型](http://ryantang.me/blog/2013/08/28/apple-account-1/)
 	* [苹果开发者账号那些事儿（二）证书](http://ryantang.me/blog/2013/09/03/apple-account-2/)
 	* [苹果开发者账号那些事儿（三）配置文件](http://ryantang.me/blog/2013/11/28/apple-account-3/)
@@ -110,6 +111,21 @@
 * 状态栏
 	* [如何隐藏状态栏](http://blog.csdn.net/hitwhylz/article/details/38614497)
 	* [IOS7状态栏StatusBar官方标准适配方法](http://blog.csdn.net/rhljiayou/article/details/12029927)
+* cocoa相关
+	* [深入浅出Cocoa](http://blog.csdn.net/column/details/cocoa.html)
+	* [Coding Guidelines for Cocoa](https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/CodingGuidelines/CodingGuidelines.html)
+* 消息通信相关
+	* [几种通信方式的区别](http://www.objc.io/issues/7-foundation/communication-patterns/)
+	* [ReactiveCocoa指南一：信号](http://southpeak.github.io/blog/2014/08/02/reactivecocoazhi-nan-%5B%3F%5D-:xin-hao/)
+	* [ReactiveCocoa2实战](http://www.cocoachina.com/industry/20140609/8737.html)
+* 数据持久化
+	* [如何使用NSCoding和NSFileManager来保存你的应用程序数据](http://www.cnblogs.com/andyque/archive/2011/09/13/2164469.html)
+	* [NSCoding / NSKeyed​Archiver](http://nshipster.cn/nscoding/)
+	* [iOS中常用的四种数据持久化方法简介](http://www.cocoachina.com/industry/20130328/5908.html)
+	* [iOS中几种数据持久化方案](http://www.jianshu.com/p/7616cbd72845)
+* 集合类
+	* [基础集合类](http://www.cocoachina.com/ios/20140122/7735.html)
+	* [iOS中集合遍历方法的比较和技巧](http://www.cocoachina.com/industry/20140531/8630.html)
 * 如何实现手势密码
 	* [文章一](http://blog.csdn.net/skylin19840101/article/details/38729757)
 	* [文章二](http://blog.csdn.net/becomedragonlong/article/details/43704017)
@@ -117,13 +133,10 @@
 * [自动布局教程(1) 中文版](http://www.cocoachina.com/industry/20131203/7462.html)
 * [iOS开发上手教程（官方中文版）](https://developer.apple.com/LIBRARY/ios/referencelibrary/GettingStarted/RoadMapiOSCh/FirstTutorial.html#//apple_ref/doc/uid/TP40012668-CH3-SW1)
 * [初探 iOS8 中的 Size Class](http://blog.csdn.net/pleasecallmewhy/article/details/39295327)
-* [iphone6 屏幕特性图解](http://www.paintcodeapp.com/news/iphone-6-screens-demystified)
 * [iOS8中LaunchImage和LaunchScreen的完美结合](http://www.simpleapples.com/2014/10/launchsreen-and-launchimage/)
-* [IOS基础 -- 内存分析](http://www.cnblogs.com/monicaios/p/3541095.html)
+* [iOS基础 -- 内存分析](http://www.cnblogs.com/monicaios/p/3541095.html)
 * [Prefix.pch文件详解](http://blog.csdn.net/duxinfeng2010/article/details/8287550)
-* [深入浅出Cocoa](http://blog.csdn.net/column/details/cocoa.html)
 * [Apple移动设备处理器指令集 armv6、armv7、armv7s及arm64](http://www.cocoachina.com/ios/20140915/9620.html)
-* [Coding Guidelines for Cocoa](https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/CodingGuidelines/CodingGuidelines.html)
 * [堆和栈的区别](http://blog.csdn.net/hairetz/article/details/4141043)
 * [Core Animation编程指南](http://www.cocoachina.com/bbs/read.php?tid=84461)
 * [多线程编程指南](http://www.cocoachina.com/bbs/read.php?tid=87592)
@@ -133,26 +146,21 @@
 * [解决[UIColor colorWithRed: green: blue: alpha:] 失效问题](http://blog.csdn.net/chaoyuan899/article/details/27321235)
 * [UIImagePickerController选择图片发送后旋转90度的问题](http://blog.csdn.net/mideveloper/article/details/44101267)
 * [https://github.com/vsouza/awesome-ios](https://github.com/vsouza/awesome-ios)
-* [如何使用NSCoding和NSFileManager来保存你的应用程序数据](http://www.cnblogs.com/andyque/archive/2011/09/13/2164469.html)
+
 * [iOS UITableViewCell的重用机制分析](http://blog.csdn.net/omegayy/article/details/7356823)
-* [基础集合类](http://www.cocoachina.com/ios/20140122/7735.html)
+
 * [iOS如何实现表格的折叠效果?](http://blog.csdn.net/youcanping2008/article/details/9202167)
 * [如何解决sizeWithAttributes获取的字符串尺寸偏小的问题](http://stackoverflow.com/questions/18897896/replacement-for-deprecated-sizewithfont-in-ios-7)
 * [开源项目汇总](https://github.com/Tim9Liu9/TimLiu-iOS)
 * [MVVM 介绍](http://objccn.io/issue-13-1/)
-* [几种通信方式的区别](http://www.objc.io/issues/7-foundation/communication-patterns/)
-* [ReactiveCocoa指南一：信号](http://southpeak.github.io/blog/2014/08/02/reactivecocoazhi-nan-%5B%3F%5D-:xin-hao/)
-* [ReactiveCocoa2实战](http://www.cocoachina.com/industry/20140609/8737.html)
+
 * [在iOS开发中调用icon font字体的代码](http://www.weste.net/2013/12-13/94694.html)
 * [iOS的基本的设计模式](http://blog.csdn.net/totogo2010/article/details/8028180)
 * [iOS应用程序生命周期详解](http://blog.csdn.net/totogo2010/article/details/8048652)
 * [iOS内存警告分级](http://www.cnblogs.com/smileEvday/archive/2012/03/07/MemoryWarning.html)
-* [iOS代码签名探析](http://objccn.io/issue-17-2/)
-* [iOS代码签名](http://www.cocoachina.com/ios/20141017/9949.html)
-* [NSCoding / NSKeyed​Archiver](http://nshipster.cn/nscoding/)
-* [iOS中常用的四种数据持久化方法简介](http://www.cocoachina.com/industry/20130328/5908.html)
-* [iOS中几种数据持久化方案](http://www.jianshu.com/p/7616cbd72845)
-* [iOS中集合遍历方法的比较和技巧](http://www.cocoachina.com/industry/20140531/8630.html)
+
+
+
 * [iOS如何在应用中唤起系统设置界面（仅支持8.0+）](http://itony.me/875.html)
 * [iOS如何在应用中跳转到系统蓝牙设置界面](http://5828666.blog.51cto.com/5818666/1600185)
 
