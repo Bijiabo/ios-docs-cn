@@ -1,0 +1,5 @@
+# UIActivityItemProvider
+
+简介：`UIActivityItemProvider`对象是一个传递数据给UIActivityViewController对象的代理。当你想让一个activity可以使用数据，但想等到它真的需要数据时才提供给它，你就可以使用`UIActivityItemProvider`对象。
+
+备注：当你需要初始化一个`UIActivityViewController`对象，你可以传递一个`UIActivityItemProvider`对象来代替其他数据对象。当用户选择了一个activity，`UIActivityViewController`对象会将你的`UIActivityItemProvider`对象添加到一个操作队列中，以便于收集或处理需要的数据。

@@ -342,4 +342,5 @@
 * [void (*setter)(id, SEL, BOOL)如何理解](http://zhidao.baidu.com/link?url=8P7cTCgyeCc7f34GTuehcztQKRRUkm4O0WzS0J7bQ7SUYXKRsF5d_wDSmCKw7U-t6QDanS3L4LMULywXpSU_UBGt6Lu0U2E9ita-siGjCoi)
 * [Blocks编程要点](http://www.cocoachina.com/bbs/read.php?tid=87593)
 * [Objective-C中的浅拷贝和深拷贝](http://www.cocoachina.com/ios/20141113/10213.html)
+* [#define与const的正确使用](http://www.jianshu.com/p/f83335e036b5)
 		

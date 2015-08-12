@@ -83,6 +83,7 @@
 * [SIAlertView](https://github.com/Sumi-Interactive/SIAlertView) -- 可自定义的对话框库
 * [Aspects](https://github.com/steipete/Aspects) -- AOP编程库
 * [WebViewJavascriptBridge](https://github.com/marcuswestin/WebViewJavascriptBridge)
+* [IntentKit](https://github.com/intentkit/IntentKit) -- 以一种简单方式处理第三方URL
 
 <br>
 
@@ -158,6 +159,10 @@
 * [如何正确移除CALayer的sublayers](http://stackoverflow.com/questions/2067578/removing-all-calayers-sublayers)
 * [使用Base64编解码NSData和NSString对象](http://itony.me/488.html)
 * [Method Swizzling 和 AOP 实践](http://tech.glowing.com/cn/method-swizzling-aop/)
+* 状态栏
+	* [如何隐藏状态栏](http://blog.csdn.net/hitwhylz/article/details/38614497)
+	* [IOS7状态栏StatusBar官方标准适配方法](http://blog.csdn.net/rhljiayou/article/details/12029927)
+* [如何实现导航控制器全屏滑动返回效果](http://www.cocoachina.com/ios/20150811/12897.html)
 
 <br>
 
