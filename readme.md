@@ -82,7 +82,7 @@
 * [iOS图表库集合](https://github.com/sxyx2008/awesome-ios-chart)
 * [SIAlertView](https://github.com/Sumi-Interactive/SIAlertView) -- 可自定义的对话框库
 * [Aspects](https://github.com/steipete/Aspects) -- AOP编程库
-* [WebViewJavascriptBridge](https://github.com/marcuswestin/WebViewJavascriptBridge)
+* [WebViewJavascriptBridge](https://github.com/marcuswestin/WebViewJavascriptBridge) -- JSBridge库
 * [IntentKit](https://github.com/intentkit/IntentKit) -- 以一种简单方式处理第三方URL
 
 <br>
