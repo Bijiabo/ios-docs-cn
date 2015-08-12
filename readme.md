@@ -69,7 +69,7 @@
 * [CocoaLumberjack](https://github.com/CocoaLumberjack/CocoaLumberjack) -- Mac 和 iOS 的一款强大的日志框架（原生支持XcodeColors插件）
 * [100个优秀IOS开源项目](http://www.jianshu.com/p/769ce426b5db)
 * [ReactiveCocoa](https://github.com/ReactiveCocoa/ReactiveCocoa) -- 函数响应式编程框架
-* [PonyDebugger](https://github.com/square/PonyDebugger)
+* [PonyDebugger](https://github.com/square/PonyDebugger) -- 类似浏览器控制台的调试工具
 * [PonyDebugger使用详细说明](http://shiningio.com/2014/03/20/debug-ios-app-with-pony-debugger/)
 * [Mantle](https://github.com/Mantle/Mantle) -- 数据模型框架（字典与类互转）
 * [JSONModel](https://github.com/icanzilb/JSONModel) -- 数据模型框架（字典与类互转）
@@ -83,42 +83,46 @@
 * [SIAlertView](https://github.com/Sumi-Interactive/SIAlertView) -- 可自定义的对话框库
 * [Aspects](https://github.com/steipete/Aspects) -- AOP编程库
 * [WebViewJavascriptBridge](https://github.com/marcuswestin/WebViewJavascriptBridge) -- JSBridge库
-* [IntentKit](https://github.com/intentkit/IntentKit) -- 以一种简单方式处理第三方URL
 
 <br>
 
 ## 四. 参考资料
 
-* [IOS开发教程（官方中文版）](https://developer.apple.com/LIBRARY/ios/referencelibrary/GettingStarted/RoadMapiOSCh/FirstTutorial.html#//apple_ref/doc/uid/TP40012668-CH3-SW1)
-* [IOS开发官方示例代码](https://developer.apple.com/library/ios/navigation/#section=Resource%20Types&topic=Sample%20Code)
-* [App Programming Guide for iOS](https://developer.apple.com/library/ios/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/Introduction/Introduction.html#//apple_ref/doc/uid/TP40007072)
-* [IOS人机界面指南（官方英文版）](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/IconMatrix.html#//apple_ref/doc/uid/TP40006556-CH27-SW1)
-* [IOS7人机界面指南（中文版，腾讯团队翻译）](http://isux.tencent.com/ios-human-interface-guidelines-ui-design-basics-ios7.html)
-* [App store最新审核标准(2015.3)](https://github.com/leecade/ios-dev-flow/blob/master/Appstore%E6%9C%80%E6%96%B0%E5%AE%A1%E6%A0%B8%E6%A0%87%E5%87%86_2015-3.md)
-* [xcode APP 打包以及提交apple审核详细流程](http://blog.csdn.net/mad1989/article/details/8167529)
+* App打包&发布
+	* [App store最新审核标准(2015.3)](https://github.com/leecade/ios-dev-flow/blob/master/Appstore%E6%9C%80%E6%96%B0%E5%AE%A1%E6%A0%B8%E6%A0%87%E5%87%86_2015-3.md)
+	* [Xcode APP 打包以及提交apple审核详细流程](http://blog.csdn.net/mad1989/article/details/8167529)
+	* [Xcode应用程序构建阶段（Build Phases）分析（1）](http://www.entlib.net/?p=1645)
+	* [Xcode应用程序构建阶段（Build Phases）分析（2）](http://www.entlib.net/?p=1654)
+* 开发者证书
+	* [苹果开发者账号那些事儿（一）账号类型](http://ryantang.me/blog/2013/08/28/apple-account-1/)
+	* [苹果开发者账号那些事儿（二）证书](http://ryantang.me/blog/2013/09/03/apple-account-2/)
+	* [苹果开发者账号那些事儿（三）配置文件](http://ryantang.me/blog/2013/11/28/apple-account-3/)
+* storyboard & nib
+	* [iOS开发之xib技巧介绍](http://www.cocoachina.com/industry/20140529/8603.html)
+	* [结队开发之多storyboard](http://www.cocoachina.com/industry/20140530/8620.html)
+	* [storyboard使用简介](http://www.cocoachina.com/industry/20131213/7537.html)
+	* [手写UI & xib & storyboard](http://www.cocoachina.com/industry/20140102/7640.html)
+* 静态库
+	* [IOS基础 -- 静态库](http://www.cnblogs.com/monicaios/p/3539920.html)
+	* [iOS生成静态库方法-iOS集成静态库-iOS合并静态库](http://blog.sina.com.cn/s/blog_7b9d64af0101jlym.html)
+	* [在iOS中创建静态库](http://www.cocoachina.com/industry/20131204/7468.html)
+	* [使用CocoaPods开发并打包静态库](http://www.itjhwd.com/cocoapods-kajbk/)
+* 状态栏
+	* [如何隐藏状态栏](http://blog.csdn.net/hitwhylz/article/details/38614497)
+	* [IOS7状态栏StatusBar官方标准适配方法](http://blog.csdn.net/rhljiayou/article/details/12029927)
+* 如何实现手势密码
+	* [文章一](http://blog.csdn.net/skylin19840101/article/details/38729757)
+	* [文章二](http://blog.csdn.net/becomedragonlong/article/details/43704017)
 * [UIView与CALayer的区别](http://blog.csdn.net/weiwangchao_/article/details/7771538)
 * [自动布局教程(1) 中文版](http://www.cocoachina.com/industry/20131203/7462.html)
-* [自动布局教程(2) 英文版](http://www.raywenderlich.com/50319/beginning-auto-layout-tutorial-in-ios-7-part-2)
-* [iOS开发之xib技巧介绍](http://www.cocoachina.com/industry/20140529/8603.html)
-* [结队开发之多storyboard](http://www.cocoachina.com/industry/20140530/8620.html)
-* [storyboard使用简介](http://www.cocoachina.com/industry/20131213/7537.html)
-* [手写UI & xib & storyboard](http://www.cocoachina.com/industry/20140102/7640.html)
-* [Xcode应用程序构建阶段（Build Phases）分析（1）](http://www.entlib.net/?p=1645)
-* [Xcode应用程序构建阶段（Build Phases）分析（2）](http://www.entlib.net/?p=1654)
+* [iOS开发上手教程（官方中文版）](https://developer.apple.com/LIBRARY/ios/referencelibrary/GettingStarted/RoadMapiOSCh/FirstTutorial.html#//apple_ref/doc/uid/TP40012668-CH3-SW1)
 * [初探 iOS8 中的 Size Class](http://blog.csdn.net/pleasecallmewhy/article/details/39295327)
 * [iphone6 屏幕特性图解](http://www.paintcodeapp.com/news/iphone-6-screens-demystified)
 * [iOS8中LaunchImage和LaunchScreen的完美结合](http://www.simpleapples.com/2014/10/launchsreen-and-launchimage/)
-* [IOS基础 -- 静态库](http://www.cnblogs.com/monicaios/p/3539920.html)
 * [IOS基础 -- 内存分析](http://www.cnblogs.com/monicaios/p/3541095.html)
-* [苹果开发者账号那些事儿（一）账号类型](http://ryantang.me/blog/2013/08/28/apple-account-1/)
-* [苹果开发者账号那些事儿（二）证书](http://ryantang.me/blog/2013/09/03/apple-account-2/)
-* [苹果开发者账号那些事儿（三）配置文件](http://ryantang.me/blog/2013/11/28/apple-account-3/)
 * [Prefix.pch文件详解](http://blog.csdn.net/duxinfeng2010/article/details/8287550)
 * [深入浅出Cocoa](http://blog.csdn.net/column/details/cocoa.html)
 * [Apple移动设备处理器指令集 armv6、armv7、armv7s及arm64](http://www.cocoachina.com/ios/20140915/9620.html)
-* [iOS生成静态库方法-iOS集成静态库-iOS合并静态库](http://blog.sina.com.cn/s/blog_7b9d64af0101jlym.html)
-* [在iOS中创建静态库](http://www.cocoachina.com/industry/20131204/7468.html)
-* [使用CocoaPods开发并打包静态库](http://www.itjhwd.com/cocoapods-kajbk/)
 * [Coding Guidelines for Cocoa](https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/CodingGuidelines/CodingGuidelines.html)
 * [堆和栈的区别](http://blog.csdn.net/hairetz/article/details/4141043)
 * [Core Animation编程指南](http://www.cocoachina.com/bbs/read.php?tid=84461)
@@ -151,17 +155,12 @@
 * [iOS中集合遍历方法的比较和技巧](http://www.cocoachina.com/industry/20140531/8630.html)
 * [iOS如何在应用中唤起系统设置界面（仅支持8.0+）](http://itony.me/875.html)
 * [iOS如何在应用中跳转到系统蓝牙设置界面](http://5828666.blog.51cto.com/5818666/1600185)
-* IOS中手势密码
-	* [文章一](http://blog.csdn.net/skylin19840101/article/details/38729757)
-	* [文章二](http://blog.csdn.net/becomedragonlong/article/details/43704017)
+
 * [iOS照片多选](http://www.iphonetrain.com/blog_info/68.html)
 * [应用进入后台后再回到前台，动画会消失的原因及其解决办法](http://www.cnblogs.com/YouXianMing/p/3670846.html)
 * [如何正确移除CALayer的sublayers](http://stackoverflow.com/questions/2067578/removing-all-calayers-sublayers)
 * [使用Base64编解码NSData和NSString对象](http://itony.me/488.html)
 * [Method Swizzling 和 AOP 实践](http://tech.glowing.com/cn/method-swizzling-aop/)
-* 状态栏
-	* [如何隐藏状态栏](http://blog.csdn.net/hitwhylz/article/details/38614497)
-	* [IOS7状态栏StatusBar官方标准适配方法](http://blog.csdn.net/rhljiayou/article/details/12029927)
 * [如何实现导航控制器全屏滑动返回效果](http://www.cocoachina.com/ios/20150811/12897.html)
 
 <br>
