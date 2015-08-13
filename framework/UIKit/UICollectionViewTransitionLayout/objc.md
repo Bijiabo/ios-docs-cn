@@ -1,0 +1,3 @@
+# UICollectionViewTransitionLayout
+
+简介：它是一个特殊类型的布局对象，允许实现布局之间的互动切换，其常见用法是创建交互转换。
