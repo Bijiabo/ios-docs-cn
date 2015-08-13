@@ -14,3 +14,4 @@
 * [UICollectionView介绍](http://blog.csdn.net/eqera/article/details/8134986)
 * [UICollectionView高级使用示例之CircleLayout](http://blog.csdn.net/eqera/article/details/8134994)
 * [UICollectionView实现的列表有'非法'间距的原因](http://www.jianshu.com/p/dec430e81b92)
+* [自定义Collection View布局](http://www.cocoachina.com/industry/20131122/7401.html)
