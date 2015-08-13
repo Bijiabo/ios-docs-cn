@@ -88,6 +88,8 @@
 
 ## 四. 参考资料
 
+* iOS系统相关
+	* [堆和栈的区别](http://blog.csdn.net/hairetz/article/details/4141043)
 * App构建&发布相关
 	* [App store最新审核标准(2015.3)](https://github.com/leecade/ios-dev-flow/blob/master/Appstore%E6%9C%80%E6%96%B0%E5%AE%A1%E6%A0%B8%E6%A0%87%E5%87%86_2015-3.md)
 	* [Xcode APP 打包以及提交apple审核详细流程](http://blog.csdn.net/mad1989/article/details/8167529)
@@ -98,6 +100,9 @@
 	* [苹果开发者账号那些事儿（一）账号类型](http://ryantang.me/blog/2013/08/28/apple-account-1/)
 	* [苹果开发者账号那些事儿（二）证书](http://ryantang.me/blog/2013/09/03/apple-account-2/)
 	* [苹果开发者账号那些事儿（三）配置文件](http://ryantang.me/blog/2013/11/28/apple-account-3/)
+	* [Prefix.pch文件详解](http://blog.csdn.net/duxinfeng2010/article/details/8287550)
+	* [Apple移动设备处理器指令集 armv6、armv7、armv7s及arm64](http://www.cocoachina.com/ios/20140915/9620.html)
+	* [iOS8中LaunchImage和LaunchScreen的完美结合](http://www.simpleapples.com/2014/10/launchsreen-and-launchimage/)
 * storyboard & nib
 	* [iOS开发之xib技巧介绍](http://www.cocoachina.com/industry/20140529/8603.html)
 	* [结队开发之多storyboard](http://www.cocoachina.com/industry/20140530/8620.html)
@@ -118,6 +123,7 @@
 	* [几种通信方式的区别](http://www.objc.io/issues/7-foundation/communication-patterns/)
 	* [ReactiveCocoa指南一：信号](http://southpeak.github.io/blog/2014/08/02/reactivecocoazhi-nan-%5B%3F%5D-:xin-hao/)
 	* [ReactiveCocoa2实战](http://www.cocoachina.com/industry/20140609/8737.html)
+	* [说说ReactiveCocoa 2](http://www.cocoachina.com/industry/20140115/7702.html)
 * 数据持久化
 	* [如何使用NSCoding和NSFileManager来保存你的应用程序数据](http://www.cnblogs.com/andyque/archive/2011/09/13/2164469.html)
 	* [NSCoding / NSKeyed​Archiver](http://nshipster.cn/nscoding/)
@@ -126,6 +132,15 @@
 * 集合类
 	* [基础集合类](http://www.cocoachina.com/ios/20140122/7735.html)
 	* [iOS中集合遍历方法的比较和技巧](http://www.cocoachina.com/industry/20140531/8630.html)
+* 多线程
+	* [详解四种多线程方案](http://www.cocoachina.com/ios/20150731/12819.html)
+	* [多线程编程指南](http://www.cocoachina.com/bbs/read.php?tid=87592)
+* 内存相关
+	* [iOS内存分析](http://www.cnblogs.com/monicaios/p/3541095.html)
+	* [iOS内存警告分级](http://www.cnblogs.com/smileEvday/archive/2012/03/07/MemoryWarning.html)
+* 动画相关
+	* [Core Animation编程指南](http://www.cocoachina.com/bbs/read.php?tid=84461)
+	* [如何正确移除CALayer的sublayers](http://stackoverflow.com/questions/2067578/removing-all-calayers-sublayers)
 * 设计模式
 	* [MVVM 介绍](http://objccn.io/issue-13-1/)
 	* [iOS的基本的设计模式](http://blog.csdn.net/totogo2010/article/details/8028180)
@@ -136,35 +151,14 @@
 * 第三方资料库
 	* [https://github.com/vsouza/awesome-ios](https://github.com/vsouza/awesome-ios)
 	* [开源项目汇总](https://github.com/Tim9Liu9/TimLiu-iOS)
-* [UIView与CALayer的区别](http://blog.csdn.net/weiwangchao_/article/details/7771538)
-* [自动布局教程(1) 中文版](http://www.cocoachina.com/industry/20131203/7462.html)
-* [iOS开发上手教程（官方中文版）](https://developer.apple.com/LIBRARY/ios/referencelibrary/GettingStarted/RoadMapiOSCh/FirstTutorial.html#//apple_ref/doc/uid/TP40012668-CH3-SW1)
-* [初探 iOS8 中的 Size Class](http://blog.csdn.net/pleasecallmewhy/article/details/39295327)
-* [iOS8中LaunchImage和LaunchScreen的完美结合](http://www.simpleapples.com/2014/10/launchsreen-and-launchimage/)
-* [iOS基础 -- 内存分析](http://www.cnblogs.com/monicaios/p/3541095.html)
-* [Prefix.pch文件详解](http://blog.csdn.net/duxinfeng2010/article/details/8287550)
-* [Apple移动设备处理器指令集 armv6、armv7、armv7s及arm64](http://www.cocoachina.com/ios/20140915/9620.html)
-* [堆和栈的区别](http://blog.csdn.net/hairetz/article/details/4141043)
-* [Core Animation编程指南](http://www.cocoachina.com/bbs/read.php?tid=84461)
-* [多线程编程指南](http://www.cocoachina.com/bbs/read.php?tid=87592)
-* [关于viewWithTag的一点说明](http://blog.csdn.net/smking/article/details/8590547)
-* [判断是否有权限访问相机、相册、定位](http://blog.csdn.net/cafei111/article/details/25793145)
-* [push vc时如何隐藏tabbar之hidesBottomBarWhenPushed的使用](http://www.isaced.com/post-223.html)
-* [解决[UIColor colorWithRed: green: blue: alpha:] 失效问题](http://blog.csdn.net/chaoyuan899/article/details/27321235)
-* [UIImagePickerController选择图片发送后旋转90度的问题](http://blog.csdn.net/mideveloper/article/details/44101267)
-* [iOS UITableViewCell的重用机制分析](http://blog.csdn.net/omegayy/article/details/7356823)
-* [iOS如何实现表格的折叠效果?](http://blog.csdn.net/youcanping2008/article/details/9202167)
-* [如何解决sizeWithAttributes获取的字符串尺寸偏小的问题](http://stackoverflow.com/questions/18897896/replacement-for-deprecated-sizewithfont-in-ios-7)
-* [在iOS开发中调用icon font字体的代码](http://www.weste.net/2013/12-13/94694.html)
-* [iOS应用程序生命周期详解](http://blog.csdn.net/totogo2010/article/details/8048652)
-* [iOS内存警告分级](http://www.cnblogs.com/smileEvday/archive/2012/03/07/MemoryWarning.html)
-* [iOS如何在应用中唤起系统设置界面（仅支持8.0+）](http://itony.me/875.html)
-* [iOS如何在应用中跳转到系统蓝牙设置界面](http://5828666.blog.51cto.com/5818666/1600185)
-* [iOS照片多选](http://www.iphonetrain.com/blog_info/68.html)
-* [应用进入后台后再回到前台，动画会消失的原因及其解决办法](http://www.cnblogs.com/YouXianMing/p/3670846.html)
-* [如何正确移除CALayer的sublayers](http://stackoverflow.com/questions/2067578/removing-all-calayers-sublayers)
-* [使用Base64编解码NSData和NSString对象](http://itony.me/488.html)
-* [如何实现导航控制器全屏滑动返回效果](http://www.cocoachina.com/ios/20150811/12897.html)
+* 其他
+	* [自动布局教程](http://www.cocoachina.com/industry/20131203/7462.html)
+	* [iOS开发上手教程](https://developer.apple.com/LIBRARY/ios/referencelibrary/GettingStarted/RoadMapiOSCh/FirstTutorial.html#//apple_ref/doc/uid/TP40012668-CH3-SW1)
+	* [初探iOS8中的Size Class](http://blog.csdn.net/pleasecallmewhy/article/details/39295327)
+	* [判断是否有权限访问相机、相册、定位](http://blog.csdn.net/cafei111/article/details/25793145)
+	* [iOS如何在应用中唤起系统设置界面（仅支持8.0+）](http://itony.me/875.html)
+	* [iOS如何在应用中跳转到系统蓝牙设置界面](http://5828666.blog.51cto.com/5818666/1600185)
+	* [应用进入后台后再回到前台，动画会消失的原因及其解决办法](http://www.cnblogs.com/YouXianMing/p/3670846.html)
 
 <br>
 

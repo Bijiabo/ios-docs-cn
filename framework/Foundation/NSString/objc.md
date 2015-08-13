@@ -1,21 +1,20 @@
 # NSString
 
-### 一. 简介
+**简介**
 
-说明：不可变字符串
+不可变字符串
 
-<br>
 
-### 二. 使用
+**快捷使用**
 
 	语法糖：NSString *str = @"";
 	
 	说明：使用 @"" 快速创建一个 NSString 对象
 
-<br>
 
-### 三. 通过字符串读写文件
+**通过字符串读写文件**
 
+```
 	// 读取文件内容
     NSString *path = @"/Users/kenshincui/Desktop/test.txt";
     NSString *str1 = [NSString stringWithContentsOfFile:path 
@@ -29,3 +28,14 @@
     [str writeToFile:path atomically:YES 
     	 				  encoding:NSUTF8StringEncoding 
     	 				  error:nil];
+```
+
+<br>
+
+***
+
+<br>
+
+### 参考资料
+
+* [如何解决sizeWithAttributes获取的字符串尺寸偏小的问题](http://stackoverflow.com/questions/18897896/replacement-for-deprecated-sizewithfont-in-ios-7)
