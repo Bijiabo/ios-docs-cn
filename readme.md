@@ -141,6 +141,8 @@
 * 动画相关
 	* [Core Animation编程指南](http://www.cocoachina.com/bbs/read.php?tid=84461)
 	* [如何正确移除CALayer的sublayers](http://stackoverflow.com/questions/2067578/removing-all-calayers-sublayers)
+* 地理定位
+	* [Core Location使用简介](http://www.cocoachina.com/ios/20150813/13042.html)
 * 设计模式
 	* [MVVM 介绍](http://objccn.io/issue-13-1/)
 	* [iOS的基本的设计模式](http://blog.csdn.net/totogo2010/article/details/8028180)
